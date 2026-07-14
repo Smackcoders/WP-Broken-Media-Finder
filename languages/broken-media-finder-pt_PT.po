@@ -1,0 +1,431 @@
+# Translation of Broken Media Finder in Portuguese
+# This file is distributed under the same license as the Broken Media Finder plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Broken Media Finder 1.0.0\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%d issue found"
+msgstr "Problema %d encontrado"
+
+msgid "%d issues found"
+msgstr "Problemas encontrados com %d"
+
+msgid "%d scan recorded"
+msgstr "Varredura %d registrada"
+
+msgid "%d scans recorded"
+msgstr "Varreduras %d registradas"
+
+msgid "404 Not Found"
+msgstr "404 não encontrado"
+
+msgid "410 Gone"
+msgstr "410 desapareceu"
+
+msgid "Actions"
+msgstr "Ações"
+
+msgid "Advanced"
+msgstr "Avançado"
+
+msgid "All Severities"
+msgstr "Todas as gravidades"
+
+msgid "All Statuses"
+msgstr "Todos os status"
+
+msgid "All Types"
+msgstr "Todos os tipos"
+
+msgid "Also clear scan history"
+msgstr "Limpe também o histórico de verificação"
+
+msgid "Are you sure you want to delete this scan and its results? This cannot be undone."
+msgstr "Tem certeza de que deseja excluir esta verificação e seus resultados? Isto não pode ser desfeito."
+
+msgid "Attachment \"%1$s\" (#%2$d) appears unused."
+msgstr "O anexo \"%1$s\" (#%2$d) aparece sem uso."
+
+msgid "Attachment #%d"
+msgstr "Anexo #%d"
+
+msgid "Attachment ID"
+msgstr "ID do anexo"
+
+msgid "Attachment Title"
+msgstr "Título do anexo"
+
+msgid "Broken Link"
+msgstr "Link quebrado"
+
+msgid "Broken Links"
+msgstr "Links quebrados"
+
+msgid "Broken Media Finder"
+msgstr "Localizador de mídia quebrada"
+
+msgid "Broken Media Finder Settings"
+msgstr "Configurações quebradas do Media Finder"
+
+msgid "Broken Media Status"
+msgstr "Status de mídia quebrada"
+
+msgid "Broken attachment link in \"%1$s\": %2$s"
+msgstr "Link de anexo quebrado em \"%1$s\": %2$s"
+
+msgid "Cannot replace: no post or source URL."
+msgstr "Não é possível substituir: nenhuma postagem ou URL de origem."
+
+msgid "Choose Image"
+msgstr "Escolha a imagem"
+
+msgid "Clear Results"
+msgstr "Resultados claros"
+
+msgid "Clear scan history?"
+msgstr "Limpar histórico de verificação?"
+
+msgid "Confirm — Delete All Results"
+msgstr ""
+
+msgid "Created At"
+msgstr "Criado em"
+
+msgid "Created At GMT"
+msgstr "Criado em GMT"
+
+msgid "Custom Placeholder URL"
+msgstr "URL de espaço reservado personalizado"
+
+msgid "DNS resolution failed"
+msgstr "Falha na resolução de DNS"
+
+msgid "Dashboard"
+msgstr "Painel"
+
+msgid "Dashboard Widget"
+msgstr "Widget do painel"
+
+msgid "Date & Time"
+msgstr "Data e hora"
+
+msgid "Delete"
+msgstr "Excluir"
+
+msgid "Delete Data on Uninstall"
+msgstr "Excluir dados na desinstalação"
+
+msgid "Delete all plugin data when uninstalling"
+msgstr "Exclua todos os dados do plugin ao desinstalar"
+
+msgid "Delete all scan results? This cannot be undone."
+msgstr "Excluir todos os resultados da verificação? Isto não pode ser desfeito."
+
+msgid "Detailed Results"
+msgstr "Resultados detalhados"
+
+msgid "Detect missing featured image files"
+msgstr "Detectar arquivos de imagem em destaque ausentes"
+
+msgid "Enable Broken Media Finder"
+msgstr "Ativar localizador de mídia quebrada"
+
+msgid "Enable Plugin"
+msgstr "Habilitar plug-in"
+
+msgid "Error Type"
+msgstr "Tipo de erro"
+
+msgid "Export CSV"
+msgstr "Exportar CSV"
+
+msgid "File Path"
+msgstr "Caminho do arquivo"
+
+msgid "Filter"
+msgstr "Filtro"
+
+msgid "Fixed"
+msgstr "Fixo"
+
+msgid "Go to Broken Media Finder"
+msgstr "Vá para o Localizador de mídia quebrada"
+
+msgid "Go to Dashboard"
+msgstr "Vá para o painel"
+
+msgid "HTTP Error %d"
+msgstr "Erro HTTP %d"
+
+msgid "High"
+msgstr "Alto"
+
+msgid "Ignore"
+msgstr "Ignorar"
+
+msgid "Ignored"
+msgstr "Ignorado"
+
+msgid "Image replaced with placeholder."
+msgstr "Imagem substituída por espaço reservado."
+
+msgid "Include media attached to a parent post in unused scan"
+msgstr "Incluir mídia anexada a uma postagem principal na verificação não utilizada"
+
+msgid "Invalid URL format"
+msgstr "Formato de URL inválido"
+
+msgid "Invalid host"
+msgstr "Host inválido"
+
+msgid "Invalid scan ID or the requested scan results are no longer available."
+msgstr "ID de verificação inválida ou os resultados da verificação solicitados não estão mais disponíveis."
+
+msgid "Issue Type"
+msgstr "Tipo de problema"
+
+msgid "Item Type"
+msgstr "Tipo de item"
+
+msgid "Keep Previous Results"
+msgstr "Manter resultados anteriores"
+
+msgid "Keep previous scan results when running a new scan"
+msgstr "Manter os resultados da verificação anterior ao executar uma nova verificação"
+
+msgid "Last scan: %s"
+msgstr "Última verificação: %s"
+
+msgid "List unused media attachments"
+msgstr "Listar anexos de mídia não utilizados"
+
+msgid "Local file does not exist"
+msgstr "O arquivo local não existe"
+
+msgid "Low"
+msgstr "Baixo"
+
+msgid "Mark Fixed"
+msgstr "Marca fixa"
+
+msgid "Media Scan"
+msgstr "Verificação de mídia"
+
+msgid "Medium"
+msgstr "Médio"
+
+msgid "Message"
+msgstr "Mensagem"
+
+msgid "Missing Featured"
+msgstr "Faltando destaque"
+
+msgid "Missing Image"
+msgstr "Imagem ausente"
+
+msgid "Missing Images"
+msgstr "Imagens ausentes"
+
+msgid "Missing featured image file for \"%1$s\" (attachment #%2$d)."
+msgstr "Arquivo de imagem em destaque ausente para \"%1$s\" (anexo #%2$d)."
+
+msgid "Missing file"
+msgstr "Arquivo ausente"
+
+msgid "Missing image in \"%1$s\": %2$s (Error: %3$s)"
+msgstr "Imagem ausente em \"%1$s\": %2$s (Erro: %3$s)"
+
+msgid "Missing image in Widget [%1$s #%2$d]: %3$s (Error: %4$s)"
+msgstr "Imagem ausente no widget [%1$s #%2$d]: %3$s (Erro: %4$s)"
+
+msgid "N/A"
+msgstr "N / D"
+
+msgid "No issues found for this filter."
+msgstr "Nenhum problema encontrado para este filtro."
+
+msgid "No scan has been run yet."
+msgstr "Nenhuma verificação foi executada ainda."
+
+msgid "No scan has been run yet. Click \"Run New Scan\" to get started."
+msgstr "Nenhuma verificação foi executada ainda. Clique em “Executar nova verificação” para começar."
+
+msgid "No scan history found. Run a new scan from the dashboard."
+msgstr "Nenhum histórico de verificação encontrado. Execute uma nova verificação no painel."
+
+msgid "Not scanned"
+msgstr "Não verificado"
+
+msgid "Note: Unused media detection may produce false positives. Review results carefully before deleting any files."
+msgstr "Nota: A detecção de mídia não utilizada pode produzir falsos positivos. Revise os resultados cuidadosamente antes de excluir qualquer arquivo."
+
+msgid "Open"
+msgstr "Abrir"
+
+msgid "Permission denied."
+msgstr "Permissão negada."
+
+msgid "Placeholder Applied"
+msgstr "Espaço reservado aplicado"
+
+msgid "Placeholder Source"
+msgstr "Fonte do espaço reservado"
+
+msgid "Post"
+msgstr "Publicar"
+
+msgid "Post ID"
+msgstr "ID da postagem"
+
+msgid "Post Title"
+msgstr "Título da postagem"
+
+msgid "Post Types"
+msgstr "Tipos de postagem"
+
+msgid "Post not found."
+msgstr "Postagem não encontrada."
+
+msgid "Repair"
+msgstr "Reparar"
+
+msgid "Replace this image with the placeholder? This modifies post content."
+msgstr "Substituir esta imagem pelo espaço reservado? Isso modifica o conteúdo da postagem."
+
+msgid "Request timed out"
+msgstr "A solicitação expirou"
+
+msgid "Reset"
+msgstr "Reiniciar"
+
+msgid "Resolved URL"
+msgstr "URL resolvido"
+
+msgid "Result ID"
+msgstr "ID do resultado"
+
+msgid "Run New Scan"
+msgstr "Execute uma nova verificação"
+
+msgid "Save Settings"
+msgstr "Salvar configurações"
+
+msgid "Scan"
+msgstr "Digitalizar"
+
+msgid "Scan Date"
+msgstr "Data da verificação"
+
+msgid "Scan History"
+msgstr "Histórico de verificação"
+
+msgid "Scan ID"
+msgstr "ID de digitalização"
+
+msgid "Scan Types"
+msgstr "Tipos de digitalização"
+
+msgid "Scan complete. %d issue found."
+msgstr "Digitalização concluída. Problema %d encontrado."
+
+msgid "Scan complete. %d issues found."
+msgstr "Digitalização concluída. Problemas %d encontrados."
+
+msgid "Scan content for broken attachment links"
+msgstr "Verifique o conteúdo em busca de links de anexos quebrados"
+
+msgid "Scan content for missing images"
+msgstr "Digitalize o conteúdo em busca de imagens ausentes"
+
+msgid "Scan result not found."
+msgstr "Resultado da verificação não encontrado."
+
+msgid "Scan results cleared."
+msgstr "Os resultados da verificação foram apagados."
+
+msgid "Search URL or message..."
+msgstr "Pesquisar URL ou mensagem..."
+
+msgid "Security check failed."
+msgstr "A verificação de segurança falhou."
+
+msgid "Select from Media Library or enter a URL."
+msgstr "Selecione na Biblioteca de mídia ou insira um URL."
+
+msgid "Settings"
+msgstr "Configurações"
+
+msgid "Severity"
+msgstr "Gravidade"
+
+msgid "Show scan summary widget on dashboard"
+msgstr "Mostrar widget de resumo de verificação no painel"
+
+msgid "Source URL"
+msgstr "URL de origem"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Total Issues"
+msgstr "Total de problemas"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "URL not found in post content."
+msgstr "URL não encontrado no conteúdo da postagem."
+
+msgid "Unused"
+msgstr "Não utilizado"
+
+msgid "Unused Media"
+msgstr "Mídia não utilizada"
+
+msgid "Unused Media Options"
+msgstr "Opções de mídia não utilizadas"
+
+msgid "Use Placeholder"
+msgstr "Usar espaço reservado"
+
+msgid "Use custom URL"
+msgstr "Usar URL personalizado"
+
+msgid "Use default plugin placeholder"
+msgstr "Use o espaço reservado do plugin padrão"
+
+msgid "Used"
+msgstr "Usado"
+
+msgid "View Dashboard"
+msgstr "Ver painel"
+
+msgid "View Results"
+msgstr "Ver resultados"
+
+msgid "WP Broken Media Finder"
+msgstr "Localizador de mídia quebrada WP"
+
+msgid "You do not have permission to export."
+msgstr "Você não tem permissão para exportar."
+
+msgid "broken links"
+msgstr "links quebrados"
+
+msgid "missing featured"
+msgstr "faltando destaque"
+
+msgid "missing images"
+msgstr "imagens faltantes"
+
+msgid "total issues"
+msgstr "problemas totais"
+
+msgid "unused media"
+msgstr "mídia não utilizada"
+

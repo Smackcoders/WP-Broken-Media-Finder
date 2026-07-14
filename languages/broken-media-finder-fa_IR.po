@@ -1,0 +1,431 @@
+# Translation of Broken Media Finder in Persian/Farsi
+# This file is distributed under the same license as the Broken Media Finder plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Broken Media Finder 1.0.0\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "%d issue found"
+msgstr "%d مشکل پیدا شد"
+
+msgid "%d issues found"
+msgstr "%d مشکل پیدا شد"
+
+msgid "%d scan recorded"
+msgstr "اسکن %d ضبط شد"
+
+msgid "%d scans recorded"
+msgstr "%d اسکن ضبط شد"
+
+msgid "404 Not Found"
+msgstr "404 یافت نشد"
+
+msgid "410 Gone"
+msgstr "410 رفته"
+
+msgid "Actions"
+msgstr "اقدامات"
+
+msgid "Advanced"
+msgstr "پیشرفته"
+
+msgid "All Severities"
+msgstr "همه شدت ها"
+
+msgid "All Statuses"
+msgstr "همه وضعیت ها"
+
+msgid "All Types"
+msgstr "همه انواع"
+
+msgid "Also clear scan history"
+msgstr "همچنین تاریخچه اسکن را پاک کنید"
+
+msgid "Are you sure you want to delete this scan and its results? This cannot be undone."
+msgstr "آیا مطمئن هستید که می خواهید این اسکن و نتایج آن را حذف کنید؟ این قابل واگرد نیست."
+
+msgid "Attachment \"%1$s\" (#%2$d) appears unused."
+msgstr "پیوست \"%1$s\" (#%2$d) استفاده نشده به نظر می رسد."
+
+msgid "Attachment #%d"
+msgstr "پیوست #%d"
+
+msgid "Attachment ID"
+msgstr "شناسه پیوست"
+
+msgid "Attachment Title"
+msgstr "عنوان پیوست"
+
+msgid "Broken Link"
+msgstr "لینک خراب"
+
+msgid "Broken Links"
+msgstr "لینک های شکسته"
+
+msgid "Broken Media Finder"
+msgstr "یاب رسانه شکسته"
+
+msgid "Broken Media Finder Settings"
+msgstr "تنظیمات رسانه یاب شکسته"
+
+msgid "Broken Media Status"
+msgstr "وضعیت رسانه شکسته"
+
+msgid "Broken attachment link in \"%1$s\": %2$s"
+msgstr "پیوند پیوست خراب در \"%1$s\": %2$s"
+
+msgid "Cannot replace: no post or source URL."
+msgstr "نمی توان جایگزین کرد: بدون پست یا URL منبع."
+
+msgid "Choose Image"
+msgstr "تصویر را انتخاب کنید"
+
+msgid "Clear Results"
+msgstr "پاک کردن نتایج"
+
+msgid "Clear scan history?"
+msgstr "تاریخچه اسکن پاک شود؟"
+
+msgid "Confirm — Delete All Results"
+msgstr ""
+
+msgid "Created At"
+msgstr "ایجاد شده در"
+
+msgid "Created At GMT"
+msgstr "در GMT ایجاد شد"
+
+msgid "Custom Placeholder URL"
+msgstr "URL دلخواه سفارشی"
+
+msgid "DNS resolution failed"
+msgstr "وضوح DNS ناموفق بود"
+
+msgid "Dashboard"
+msgstr "داشبورد"
+
+msgid "Dashboard Widget"
+msgstr "ویجت داشبورد"
+
+msgid "Date & Time"
+msgstr "تاریخ و زمان"
+
+msgid "Delete"
+msgstr "حذف کنید"
+
+msgid "Delete Data on Uninstall"
+msgstr "حذف داده ها در حذف"
+
+msgid "Delete all plugin data when uninstalling"
+msgstr "هنگام حذف تمام اطلاعات افزونه را حذف کنید"
+
+msgid "Delete all scan results? This cannot be undone."
+msgstr "همه نتایج اسکن حذف شود؟ این قابل واگرد نیست."
+
+msgid "Detailed Results"
+msgstr "نتایج تفصیلی"
+
+msgid "Detect missing featured image files"
+msgstr "شناسایی فایل های تصویری از دست رفته"
+
+msgid "Enable Broken Media Finder"
+msgstr "Broken Media Finder را فعال کنید"
+
+msgid "Enable Plugin"
+msgstr "افزونه را فعال کنید"
+
+msgid "Error Type"
+msgstr "نوع خطا"
+
+msgid "Export CSV"
+msgstr "صادرات CSV"
+
+msgid "File Path"
+msgstr "مسیر فایل"
+
+msgid "Filter"
+msgstr "فیلتر کنید"
+
+msgid "Fixed"
+msgstr "ثابت شد"
+
+msgid "Go to Broken Media Finder"
+msgstr "به Broken Media Finder بروید"
+
+msgid "Go to Dashboard"
+msgstr "به داشبورد بروید"
+
+msgid "HTTP Error %d"
+msgstr "خطای HTTP %d"
+
+msgid "High"
+msgstr "بالا"
+
+msgid "Ignore"
+msgstr "نادیده گرفتن"
+
+msgid "Ignored"
+msgstr "نادیده گرفته شد"
+
+msgid "Image replaced with placeholder."
+msgstr "تصویر با مکان نگهدار جایگزین شد."
+
+msgid "Include media attached to a parent post in unused scan"
+msgstr "رسانه های پیوست شده به پست والدین را در اسکن استفاده نشده بگنجانید"
+
+msgid "Invalid URL format"
+msgstr "قالب URL نامعتبر است"
+
+msgid "Invalid host"
+msgstr "میزبان نامعتبر است"
+
+msgid "Invalid scan ID or the requested scan results are no longer available."
+msgstr "شناسه اسکن نامعتبر یا نتایج اسکن درخواستی دیگر در دسترس نیستند."
+
+msgid "Issue Type"
+msgstr "نوع مسئله"
+
+msgid "Item Type"
+msgstr "نوع مورد"
+
+msgid "Keep Previous Results"
+msgstr "حفظ نتایج قبلی"
+
+msgid "Keep previous scan results when running a new scan"
+msgstr "هنگام اجرای اسکن جدید، نتایج اسکن قبلی را حفظ کنید"
+
+msgid "Last scan: %s"
+msgstr "آخرین اسکن: %s"
+
+msgid "List unused media attachments"
+msgstr "پیوست های رسانه ای استفاده نشده را فهرست کنید"
+
+msgid "Local file does not exist"
+msgstr "فایل محلی وجود ندارد"
+
+msgid "Low"
+msgstr "پایین"
+
+msgid "Mark Fixed"
+msgstr "علامت ثابت"
+
+msgid "Media Scan"
+msgstr "اسکن رسانه"
+
+msgid "Medium"
+msgstr "متوسط"
+
+msgid "Message"
+msgstr "پیام"
+
+msgid "Missing Featured"
+msgstr "از دست رفته برجسته"
+
+msgid "Missing Image"
+msgstr "تصویر گم شده"
+
+msgid "Missing Images"
+msgstr "تصاویر گم شده"
+
+msgid "Missing featured image file for \"%1$s\" (attachment #%2$d)."
+msgstr "فایل تصویر ویژه برای \"%1$s\" موجود نیست (پیوست #%2$d)."
+
+msgid "Missing file"
+msgstr "فایل گم شده"
+
+msgid "Missing image in \"%1$s\": %2$s (Error: %3$s)"
+msgstr "تصویر موجود در \"%1$s\": %2$s (خطا: %3$s)"
+
+msgid "Missing image in Widget [%1$s #%2$d]: %3$s (Error: %4$s)"
+msgstr "تصویر موجود در ویجت [%1$s #%2$d]: %3$s (خطا: %4$s)"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "No issues found for this filter."
+msgstr "هیچ مشکلی برای این فیلتر یافت نشد."
+
+msgid "No scan has been run yet."
+msgstr "هنوز هیچ اسکنی اجرا نشده است."
+
+msgid "No scan has been run yet. Click \"Run New Scan\" to get started."
+msgstr "هنوز هیچ اسکنی اجرا نشده است. برای شروع روی \"اجرای اسکن جدید\" کلیک کنید."
+
+msgid "No scan history found. Run a new scan from the dashboard."
+msgstr "سابقه اسکن پیدا نشد. یک اسکن جدید از داشبورد اجرا کنید."
+
+msgid "Not scanned"
+msgstr "اسکن نشده است"
+
+msgid "Note: Unused media detection may produce false positives. Review results carefully before deleting any files."
+msgstr "توجه: تشخیص رسانه استفاده نشده ممکن است مثبت کاذب ایجاد کند. قبل از حذف هر فایلی، نتایج را به دقت بررسی کنید."
+
+msgid "Open"
+msgstr "باز کنید"
+
+msgid "Permission denied."
+msgstr "اجازه رد شد."
+
+msgid "Placeholder Applied"
+msgstr "جای‌بان اعمال شد"
+
+msgid "Placeholder Source"
+msgstr "منبع مکان"
+
+msgid "Post"
+msgstr "ارسال کنید"
+
+msgid "Post ID"
+msgstr "شناسه پست"
+
+msgid "Post Title"
+msgstr "عنوان پست"
+
+msgid "Post Types"
+msgstr "انواع پست"
+
+msgid "Post not found."
+msgstr "پست پیدا نشد"
+
+msgid "Repair"
+msgstr "تعمیر"
+
+msgid "Replace this image with the placeholder? This modifies post content."
+msgstr "جای جای این تصویر را جایگزین کنید؟ این باعث تغییر محتوای پست می شود."
+
+msgid "Request timed out"
+msgstr "زمان درخواست تمام شد"
+
+msgid "Reset"
+msgstr "بازنشانی کنید"
+
+msgid "Resolved URL"
+msgstr "آدرس اینترنتی حل شد"
+
+msgid "Result ID"
+msgstr "شناسه نتیجه"
+
+msgid "Run New Scan"
+msgstr "اسکن جدید را اجرا کنید"
+
+msgid "Save Settings"
+msgstr "تنظیمات را ذخیره کنید"
+
+msgid "Scan"
+msgstr "اسکن کنید"
+
+msgid "Scan Date"
+msgstr "تاریخ اسکن"
+
+msgid "Scan History"
+msgstr "اسکن تاریخچه"
+
+msgid "Scan ID"
+msgstr "اسکن شناسه"
+
+msgid "Scan Types"
+msgstr "انواع اسکن"
+
+msgid "Scan complete. %d issue found."
+msgstr "اسکن کامل شد. %d مشکل پیدا شد."
+
+msgid "Scan complete. %d issues found."
+msgstr "اسکن کامل شد. %d مشکل پیدا شد."
+
+msgid "Scan content for broken attachment links"
+msgstr "محتوا را برای پیوندهای پیوست شکسته اسکن کنید"
+
+msgid "Scan content for missing images"
+msgstr "اسکن محتوا برای تصاویر از دست رفته"
+
+msgid "Scan result not found."
+msgstr "نتیجه اسکن یافت نشد."
+
+msgid "Scan results cleared."
+msgstr "نتایج اسکن پاک شد."
+
+msgid "Search URL or message..."
+msgstr "جستجوی URL یا پیام..."
+
+msgid "Security check failed."
+msgstr "بررسی امنیتی ناموفق بود."
+
+msgid "Select from Media Library or enter a URL."
+msgstr "از Media Library انتخاب کنید یا یک URL وارد کنید."
+
+msgid "Settings"
+msgstr "تنظیمات"
+
+msgid "Severity"
+msgstr "شدت"
+
+msgid "Show scan summary widget on dashboard"
+msgstr "نمایش ویجت خلاصه اسکن در داشبورد"
+
+msgid "Source URL"
+msgstr "آدرس منبع"
+
+msgid "Status"
+msgstr "وضعیت"
+
+msgid "Total Issues"
+msgstr "مجموع مسائل"
+
+msgid "Type"
+msgstr "تایپ کنید"
+
+msgid "URL not found in post content."
+msgstr "URL در محتوای پست یافت نشد."
+
+msgid "Unused"
+msgstr "استفاده نشده"
+
+msgid "Unused Media"
+msgstr "رسانه استفاده نشده"
+
+msgid "Unused Media Options"
+msgstr "گزینه های رسانه استفاده نشده"
+
+msgid "Use Placeholder"
+msgstr "از Placeholder استفاده کنید"
+
+msgid "Use custom URL"
+msgstr "از URL سفارشی استفاده کنید"
+
+msgid "Use default plugin placeholder"
+msgstr "از متغیرهای پیش فرض افزونه استفاده کنید"
+
+msgid "Used"
+msgstr "استفاده می شود"
+
+msgid "View Dashboard"
+msgstr "مشاهده داشبورد"
+
+msgid "View Results"
+msgstr "مشاهده نتایج"
+
+msgid "WP Broken Media Finder"
+msgstr "WP Broken Media Finder"
+
+msgid "You do not have permission to export."
+msgstr "شما مجوز صادرات ندارید."
+
+msgid "broken links"
+msgstr "لینک های خراب"
+
+msgid "missing featured"
+msgstr "از دست رفته برجسته"
+
+msgid "missing images"
+msgstr "تصاویر گم شده"
+
+msgid "total issues"
+msgstr "کل مسائل"
+
+msgid "unused media"
+msgstr "رسانه استفاده نشده"
+

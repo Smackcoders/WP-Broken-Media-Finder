@@ -1,0 +1,431 @@
+# Translation of Broken Media Finder in Russian
+# This file is distributed under the same license as the Broken Media Finder plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Broken Media Finder 1.0.0\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "%d issue found"
+msgstr "%d найдена проблема"
+
+msgid "%d issues found"
+msgstr "PLACEHOLDERНайдено 0 проблем"
+
+msgid "%d scan recorded"
+msgstr "Сканирование %d записано"
+
+msgid "%d scans recorded"
+msgstr "%d записано сканирований"
+
+msgid "404 Not Found"
+msgstr "404 Не найден"
+
+msgid "410 Gone"
+msgstr "410 Ушел"
+
+msgid "Actions"
+msgstr "Действия"
+
+msgid "Advanced"
+msgstr "Передовой"
+
+msgid "All Severities"
+msgstr "Все уровни серьезности"
+
+msgid "All Statuses"
+msgstr "Все статусы"
+
+msgid "All Types"
+msgstr "Все типы"
+
+msgid "Also clear scan history"
+msgstr "Также очистите историю сканирования"
+
+msgid "Are you sure you want to delete this scan and its results? This cannot be undone."
+msgstr "Вы уверены, что хотите удалить это сканирование и его результаты? Это невозможно отменить."
+
+msgid "Attachment \"%1$s\" (#%2$d) appears unused."
+msgstr "Вложение \"%1$s\" (#%2$d) кажется неиспользуемым."
+
+msgid "Attachment #%d"
+msgstr "Вложение #%d"
+
+msgid "Attachment ID"
+msgstr "Идентификатор вложения"
+
+msgid "Attachment Title"
+msgstr "Название вложения"
+
+msgid "Broken Link"
+msgstr "Неработающая ссылка"
+
+msgid "Broken Links"
+msgstr "Неработающие ссылки"
+
+msgid "Broken Media Finder"
+msgstr "Поиск сломанных медиафайлов"
+
+msgid "Broken Media Finder Settings"
+msgstr "Неработающие настройки поиска медиафайлов"
+
+msgid "Broken Media Status"
+msgstr "Неисправный статус носителя"
+
+msgid "Broken attachment link in \"%1$s\": %2$s"
+msgstr "Неработающая ссылка на вложение в «%1$s»: %2$s."
+
+msgid "Cannot replace: no post or source URL."
+msgstr "Невозможно заменить: нет публикации или URL-адреса источника."
+
+msgid "Choose Image"
+msgstr "Выберите изображение"
+
+msgid "Clear Results"
+msgstr "Очистить результаты"
+
+msgid "Clear scan history?"
+msgstr "Очистить историю сканирования?"
+
+msgid "Confirm — Delete All Results"
+msgstr ""
+
+msgid "Created At"
+msgstr "Создано в"
+
+msgid "Created At GMT"
+msgstr "Создано по Гринвичу"
+
+msgid "Custom Placeholder URL"
+msgstr "Пользовательский URL-адрес заполнителя"
+
+msgid "DNS resolution failed"
+msgstr "Разрешение DNS не удалось"
+
+msgid "Dashboard"
+msgstr "Панель управления"
+
+msgid "Dashboard Widget"
+msgstr "Виджет информационной панели"
+
+msgid "Date & Time"
+msgstr "Дата и время"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "Delete Data on Uninstall"
+msgstr "Удалить данные при удалении"
+
+msgid "Delete all plugin data when uninstalling"
+msgstr "Удалить все данные плагина при удалении"
+
+msgid "Delete all scan results? This cannot be undone."
+msgstr "Удалить все результаты сканирования? Это невозможно отменить."
+
+msgid "Detailed Results"
+msgstr "Подробные результаты"
+
+msgid "Detect missing featured image files"
+msgstr "Обнаружение отсутствующих файлов избранных изображений"
+
+msgid "Enable Broken Media Finder"
+msgstr "Включить поиск сломанных медиафайлов"
+
+msgid "Enable Plugin"
+msgstr "Включить плагин"
+
+msgid "Error Type"
+msgstr "Тип ошибки"
+
+msgid "Export CSV"
+msgstr "Экспорт CSV"
+
+msgid "File Path"
+msgstr "Путь к файлу"
+
+msgid "Filter"
+msgstr "Фильтр"
+
+msgid "Fixed"
+msgstr "Зафиксированный"
+
+msgid "Go to Broken Media Finder"
+msgstr "Перейти к поиску сломанных медиафайлов"
+
+msgid "Go to Dashboard"
+msgstr "Перейти на панель управления"
+
+msgid "HTTP Error %d"
+msgstr "Ошибка HTTP %d"
+
+msgid "High"
+msgstr "Высокий"
+
+msgid "Ignore"
+msgstr "игнорировать"
+
+msgid "Ignored"
+msgstr "игнорируется"
+
+msgid "Image replaced with placeholder."
+msgstr "Изображение заменено заполнителем."
+
+msgid "Include media attached to a parent post in unused scan"
+msgstr "Включить медиафайлы, прикрепленные к родительскому сообщению, в неиспользуемое сканирование"
+
+msgid "Invalid URL format"
+msgstr "Неверный формат URL"
+
+msgid "Invalid host"
+msgstr "Неверный хост"
+
+msgid "Invalid scan ID or the requested scan results are no longer available."
+msgstr "Неверный идентификатор сканирования или запрошенные результаты сканирования больше не доступны."
+
+msgid "Issue Type"
+msgstr "Тип проблемы"
+
+msgid "Item Type"
+msgstr "Тип элемента"
+
+msgid "Keep Previous Results"
+msgstr "Сохранить предыдущие результаты"
+
+msgid "Keep previous scan results when running a new scan"
+msgstr "Сохраняйте результаты предыдущего сканирования при запуске нового сканирования."
+
+msgid "Last scan: %s"
+msgstr "Последнее сканирование: %s"
+
+msgid "List unused media attachments"
+msgstr "Список неиспользуемых медиа-вложений"
+
+msgid "Local file does not exist"
+msgstr "Локальный файл не существует"
+
+msgid "Low"
+msgstr "Низкий"
+
+msgid "Mark Fixed"
+msgstr "Отметить исправлено"
+
+msgid "Media Scan"
+msgstr "Медиа-сканирование"
+
+msgid "Medium"
+msgstr "Середина"
+
+msgid "Message"
+msgstr "Сообщение"
+
+msgid "Missing Featured"
+msgstr "Отсутствует избранное"
+
+msgid "Missing Image"
+msgstr "Отсутствует изображение"
+
+msgid "Missing Images"
+msgstr "Отсутствующие изображения"
+
+msgid "Missing featured image file for \"%1$s\" (attachment #%2$d)."
+msgstr "Отсутствует файл избранного изображения для %1$s (вложение #%2$d)."
+
+msgid "Missing file"
+msgstr "Отсутствует файл"
+
+msgid "Missing image in \"%1$s\": %2$s (Error: %3$s)"
+msgstr "В «%1$s» отсутствует изображение: %2$s (Ошибка: %3$s)."
+
+msgid "Missing image in Widget [%1$s #%2$d]: %3$s (Error: %4$s)"
+msgstr "В виджете [%1$s #%2$d] отсутствует изображение: %3$s (Ошибка: %4$s)"
+
+msgid "N/A"
+msgstr "Н/Д"
+
+msgid "No issues found for this filter."
+msgstr "Для этого фильтра проблем не обнаружено."
+
+msgid "No scan has been run yet."
+msgstr "Сканирование еще не выполнено."
+
+msgid "No scan has been run yet. Click \"Run New Scan\" to get started."
+msgstr "Сканирование еще не выполнялось. Нажмите «Запустить новое сканирование», чтобы начать."
+
+msgid "No scan history found. Run a new scan from the dashboard."
+msgstr "История сканирования не найдена. Запустите новое сканирование с панели управления."
+
+msgid "Not scanned"
+msgstr "Не сканируется"
+
+msgid "Note: Unused media detection may produce false positives. Review results carefully before deleting any files."
+msgstr "Примечание. Обнаружение неиспользуемых носителей может привести к ложным срабатываниям. Внимательно просмотрите результаты перед удалением каких-либо файлов."
+
+msgid "Open"
+msgstr "Открыть"
+
+msgid "Permission denied."
+msgstr "Доступ запрещен."
+
+msgid "Placeholder Applied"
+msgstr "Заполнитель применен"
+
+msgid "Placeholder Source"
+msgstr "Источник заполнителя"
+
+msgid "Post"
+msgstr "Почта"
+
+msgid "Post ID"
+msgstr "Идентификатор сообщения"
+
+msgid "Post Title"
+msgstr "Название сообщения"
+
+msgid "Post Types"
+msgstr "Типы сообщений"
+
+msgid "Post not found."
+msgstr "Сообщение не найдено."
+
+msgid "Repair"
+msgstr "Ремонт"
+
+msgid "Replace this image with the placeholder? This modifies post content."
+msgstr "Заменить это изображение заполнителем? Это изменяет содержимое сообщения."
+
+msgid "Request timed out"
+msgstr "Время запроса истекло"
+
+msgid "Reset"
+msgstr "Перезагрузить"
+
+msgid "Resolved URL"
+msgstr "Разрешенный URL-адрес"
+
+msgid "Result ID"
+msgstr "Идентификатор результата"
+
+msgid "Run New Scan"
+msgstr "Запустить новое сканирование"
+
+msgid "Save Settings"
+msgstr "Сохранить настройки"
+
+msgid "Scan"
+msgstr "Сканировать"
+
+msgid "Scan Date"
+msgstr "Дата сканирования"
+
+msgid "Scan History"
+msgstr "История сканирования"
+
+msgid "Scan ID"
+msgstr "Сканировать идентификатор"
+
+msgid "Scan Types"
+msgstr "Типы сканирования"
+
+msgid "Scan complete. %d issue found."
+msgstr "Сканирование завершено. %d Обнаружена проблема."
+
+msgid "Scan complete. %d issues found."
+msgstr "Сканирование завершено. %d найдено проблем."
+
+msgid "Scan content for broken attachment links"
+msgstr "Сканируйте контент на наличие неработающих ссылок на вложения."
+
+msgid "Scan content for missing images"
+msgstr "Сканировать контент на наличие отсутствующих изображений"
+
+msgid "Scan result not found."
+msgstr "Результат сканирования не найден."
+
+msgid "Scan results cleared."
+msgstr "Результаты сканирования удалены."
+
+msgid "Search URL or message..."
+msgstr "Поиск URL или сообщения..."
+
+msgid "Security check failed."
+msgstr "Проверка безопасности не удалась."
+
+msgid "Select from Media Library or enter a URL."
+msgstr "Выберите из медиатеки или введите URL-адрес."
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "Severity"
+msgstr "Серьезность"
+
+msgid "Show scan summary widget on dashboard"
+msgstr "Показывать виджет сводки сканирования на информационной панели"
+
+msgid "Source URL"
+msgstr "URL-адрес источника"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Total Issues"
+msgstr "Всего проблем"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "URL not found in post content."
+msgstr "URL-адрес не найден в содержимом публикации."
+
+msgid "Unused"
+msgstr "Неиспользованный"
+
+msgid "Unused Media"
+msgstr "Неиспользованные носители"
+
+msgid "Unused Media Options"
+msgstr "Неиспользуемые параметры мультимедиа"
+
+msgid "Use Placeholder"
+msgstr "Использовать заполнитель"
+
+msgid "Use custom URL"
+msgstr "Использовать собственный URL-адрес"
+
+msgid "Use default plugin placeholder"
+msgstr "Использовать заполнитель плагина по умолчанию"
+
+msgid "Used"
+msgstr "Использовал"
+
+msgid "View Dashboard"
+msgstr "Посмотреть панель управления"
+
+msgid "View Results"
+msgstr "Посмотреть результаты"
+
+msgid "WP Broken Media Finder"
+msgstr "WP Broken Media Finder"
+
+msgid "You do not have permission to export."
+msgstr "У вас нет разрешения на экспорт."
+
+msgid "broken links"
+msgstr "неработающие ссылки"
+
+msgid "missing featured"
+msgstr "отсутствуют избранные"
+
+msgid "missing images"
+msgstr "недостающие изображения"
+
+msgid "total issues"
+msgstr "всего проблем"
+
+msgid "unused media"
+msgstr "неиспользованные носители"
+

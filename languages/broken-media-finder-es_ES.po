@@ -1,0 +1,431 @@
+# Translation of Broken Media Finder in Spanish
+# This file is distributed under the same license as the Broken Media Finder plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Broken Media Finder 1.0.0\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%d issue found"
+msgstr "Problema de %d encontrado"
+
+msgid "%d issues found"
+msgstr "%d problemas encontrados"
+
+msgid "%d scan recorded"
+msgstr "Escaneo %d registrado"
+
+msgid "%d scans recorded"
+msgstr "%d escaneos registrados"
+
+msgid "404 Not Found"
+msgstr "404 no encontrado"
+
+msgid "410 Gone"
+msgstr "410 desaparecido"
+
+msgid "Actions"
+msgstr "Comportamiento"
+
+msgid "Advanced"
+msgstr "Avanzado"
+
+msgid "All Severities"
+msgstr "Todas las gravedades"
+
+msgid "All Statuses"
+msgstr "Todos los estados"
+
+msgid "All Types"
+msgstr "Todos los tipos"
+
+msgid "Also clear scan history"
+msgstr "También borre el historial de escaneo"
+
+msgid "Are you sure you want to delete this scan and its results? This cannot be undone."
+msgstr "¿Está seguro de que desea eliminar este análisis y sus resultados? Esto no se puede deshacer."
+
+msgid "Attachment \"%1$s\" (#%2$d) appears unused."
+msgstr "El archivo adjunto \"%1$s\" (#%2$d) aparece sin usar."
+
+msgid "Attachment #%d"
+msgstr "Adjunto #%d"
+
+msgid "Attachment ID"
+msgstr "ID del archivo adjunto"
+
+msgid "Attachment Title"
+msgstr "Título del adjunto"
+
+msgid "Broken Link"
+msgstr "Enlace roto"
+
+msgid "Broken Links"
+msgstr "Enlaces rotos"
+
+msgid "Broken Media Finder"
+msgstr "Buscador de medios rotos"
+
+msgid "Broken Media Finder Settings"
+msgstr "Configuración del buscador de medios rotos"
+
+msgid "Broken Media Status"
+msgstr "Estado de medios rotos"
+
+msgid "Broken attachment link in \"%1$s\": %2$s"
+msgstr "Enlace de archivo adjunto roto en \"%1$s\": %2$s"
+
+msgid "Cannot replace: no post or source URL."
+msgstr "No se puede reemplazar: no hay publicación ni URL de origen."
+
+msgid "Choose Image"
+msgstr "Elige Imagen"
+
+msgid "Clear Results"
+msgstr "Resultados claros"
+
+msgid "Clear scan history?"
+msgstr "¿Borrar historial de escaneo?"
+
+msgid "Confirm — Delete All Results"
+msgstr ""
+
+msgid "Created At"
+msgstr "Creado en"
+
+msgid "Created At GMT"
+msgstr "Creado en GMT"
+
+msgid "Custom Placeholder URL"
+msgstr "URL de marcador de posición personalizado"
+
+msgid "DNS resolution failed"
+msgstr "La resolución DNS falló"
+
+msgid "Dashboard"
+msgstr "Panel"
+
+msgid "Dashboard Widget"
+msgstr "Widget del panel de control"
+
+msgid "Date & Time"
+msgstr "Fecha y hora"
+
+msgid "Delete"
+msgstr "Borrar"
+
+msgid "Delete Data on Uninstall"
+msgstr "Eliminar datos al desinstalar"
+
+msgid "Delete all plugin data when uninstalling"
+msgstr "Eliminar todos los datos del complemento al desinstalar"
+
+msgid "Delete all scan results? This cannot be undone."
+msgstr "¿Eliminar todos los resultados del análisis? Esto no se puede deshacer."
+
+msgid "Detailed Results"
+msgstr "Resultados detallados"
+
+msgid "Detect missing featured image files"
+msgstr "Detectar archivos de imágenes destacados faltantes"
+
+msgid "Enable Broken Media Finder"
+msgstr "Habilitar el buscador de medios rotos"
+
+msgid "Enable Plugin"
+msgstr "Habilitar complemento"
+
+msgid "Error Type"
+msgstr "Tipo de error"
+
+msgid "Export CSV"
+msgstr "Exportar CSV"
+
+msgid "File Path"
+msgstr "Ruta del archivo"
+
+msgid "Filter"
+msgstr "Filtrar"
+
+msgid "Fixed"
+msgstr "Fijado"
+
+msgid "Go to Broken Media Finder"
+msgstr "Ir al buscador de medios rotos"
+
+msgid "Go to Dashboard"
+msgstr "Ir al panel"
+
+msgid "HTTP Error %d"
+msgstr "Error HTTP LUGAR0"
+
+msgid "High"
+msgstr "Alto"
+
+msgid "Ignore"
+msgstr "Ignorar"
+
+msgid "Ignored"
+msgstr "ignorado"
+
+msgid "Image replaced with placeholder."
+msgstr "Imagen reemplazada por marcador de posición."
+
+msgid "Include media attached to a parent post in unused scan"
+msgstr "Incluir medios adjuntos a una publicación principal en el escaneo no utilizado"
+
+msgid "Invalid URL format"
+msgstr "Formato de URL no válido"
+
+msgid "Invalid host"
+msgstr "Host no válido"
+
+msgid "Invalid scan ID or the requested scan results are no longer available."
+msgstr "La identificación del escaneo no válida o los resultados del escaneo solicitados ya no están disponibles."
+
+msgid "Issue Type"
+msgstr "Tipo de problema"
+
+msgid "Item Type"
+msgstr "Tipo de artículo"
+
+msgid "Keep Previous Results"
+msgstr "Mantener resultados anteriores"
+
+msgid "Keep previous scan results when running a new scan"
+msgstr "Conservar los resultados del análisis anterior al ejecutar un nuevo análisis"
+
+msgid "Last scan: %s"
+msgstr "Último escaneo: %s"
+
+msgid "List unused media attachments"
+msgstr "Listar archivos adjuntos multimedia no utilizados"
+
+msgid "Local file does not exist"
+msgstr "El archivo local no existe"
+
+msgid "Low"
+msgstr "Bajo"
+
+msgid "Mark Fixed"
+msgstr "Marca fija"
+
+msgid "Media Scan"
+msgstr "Escaneo de medios"
+
+msgid "Medium"
+msgstr "Medio"
+
+msgid "Message"
+msgstr "Mensaje"
+
+msgid "Missing Featured"
+msgstr "Desaparecido Destacado"
+
+msgid "Missing Image"
+msgstr "Imagen faltante"
+
+msgid "Missing Images"
+msgstr "Imágenes faltantes"
+
+msgid "Missing featured image file for \"%1$s\" (attachment #%2$d)."
+msgstr "Falta el archivo de imagen destacado para \"%1$s\" (adjunto #%2$d)."
+
+msgid "Missing file"
+msgstr "archivo faltante"
+
+msgid "Missing image in \"%1$s\": %2$s (Error: %3$s)"
+msgstr "Falta imagen en \"%1$s\": %2$s (Error: %3$s)"
+
+msgid "Missing image in Widget [%1$s #%2$d]: %3$s (Error: %4$s)"
+msgstr "Falta imagen en el widget [%1$s #%2$d]: %3$s (Error: %4$s)"
+
+msgid "N/A"
+msgstr "N / A"
+
+msgid "No issues found for this filter."
+msgstr "No se encontraron problemas para este filtro."
+
+msgid "No scan has been run yet."
+msgstr "Aún no se ha realizado ningún análisis."
+
+msgid "No scan has been run yet. Click \"Run New Scan\" to get started."
+msgstr "Aún no se ha realizado ningún análisis. Haga clic en \"Ejecutar nuevo análisis\" para comenzar."
+
+msgid "No scan history found. Run a new scan from the dashboard."
+msgstr "No se encontró ningún historial de escaneo. Ejecute un nuevo escaneo desde el tablero."
+
+msgid "Not scanned"
+msgstr "No escaneado"
+
+msgid "Note: Unused media detection may produce false positives. Review results carefully before deleting any files."
+msgstr "Nota: La detección de medios no utilizados puede producir falsos positivos. Revise los resultados cuidadosamente antes de eliminar cualquier archivo."
+
+msgid "Open"
+msgstr "Abierto"
+
+msgid "Permission denied."
+msgstr "Permiso denegado."
+
+msgid "Placeholder Applied"
+msgstr "Marcador de posición aplicado"
+
+msgid "Placeholder Source"
+msgstr "Fuente del marcador de posición"
+
+msgid "Post"
+msgstr "Correo"
+
+msgid "Post ID"
+msgstr "ID de publicación"
+
+msgid "Post Title"
+msgstr "Título de la publicación"
+
+msgid "Post Types"
+msgstr "Tipos de publicaciones"
+
+msgid "Post not found."
+msgstr "Publicación no encontrada."
+
+msgid "Repair"
+msgstr "Reparar"
+
+msgid "Replace this image with the placeholder? This modifies post content."
+msgstr "¿Reemplazar esta imagen con el marcador de posición? Esto modifica el contenido de la publicación."
+
+msgid "Request timed out"
+msgstr "Solicitud agotada"
+
+msgid "Reset"
+msgstr "Reiniciar"
+
+msgid "Resolved URL"
+msgstr "URL resuelta"
+
+msgid "Result ID"
+msgstr "ID de resultado"
+
+msgid "Run New Scan"
+msgstr "Ejecutar nuevo escaneo"
+
+msgid "Save Settings"
+msgstr "Guardar configuración"
+
+msgid "Scan"
+msgstr "Escanear"
+
+msgid "Scan Date"
+msgstr "Fecha de escaneo"
+
+msgid "Scan History"
+msgstr "Historial de escaneo"
+
+msgid "Scan ID"
+msgstr "Escanear ID"
+
+msgid "Scan Types"
+msgstr "Tipos de escaneo"
+
+msgid "Scan complete. %d issue found."
+msgstr "Escaneo completo. Se encontró el problema %d."
+
+msgid "Scan complete. %d issues found."
+msgstr "Escaneo completo. Se encontraron problemas de %d."
+
+msgid "Scan content for broken attachment links"
+msgstr "Escanear contenido en busca de enlaces adjuntos rotos"
+
+msgid "Scan content for missing images"
+msgstr "Escanear contenido en busca de imágenes faltantes"
+
+msgid "Scan result not found."
+msgstr "No se encontró el resultado del escaneo."
+
+msgid "Scan results cleared."
+msgstr "Se borraron los resultados del análisis."
+
+msgid "Search URL or message..."
+msgstr "Buscar URL o mensaje..."
+
+msgid "Security check failed."
+msgstr "La comprobación de seguridad falló."
+
+msgid "Select from Media Library or enter a URL."
+msgstr "Seleccione de la biblioteca multimedia o ingrese una URL."
+
+msgid "Settings"
+msgstr "Ajustes"
+
+msgid "Severity"
+msgstr "Gravedad"
+
+msgid "Show scan summary widget on dashboard"
+msgstr "Mostrar widget de resumen de escaneo en el panel"
+
+msgid "Source URL"
+msgstr "URL de origen"
+
+msgid "Status"
+msgstr "Estado"
+
+msgid "Total Issues"
+msgstr "Problemas totales"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "URL not found in post content."
+msgstr "URL no encontrada en el contenido de la publicación."
+
+msgid "Unused"
+msgstr "No usado"
+
+msgid "Unused Media"
+msgstr "Medios no utilizados"
+
+msgid "Unused Media Options"
+msgstr "Opciones de medios no utilizados"
+
+msgid "Use Placeholder"
+msgstr "Usar marcador de posición"
+
+msgid "Use custom URL"
+msgstr "Usar URL personalizada"
+
+msgid "Use default plugin placeholder"
+msgstr "Usar marcador de posición de complemento predeterminado"
+
+msgid "Used"
+msgstr "Usado"
+
+msgid "View Dashboard"
+msgstr "Ver panel"
+
+msgid "View Results"
+msgstr "Ver resultados"
+
+msgid "WP Broken Media Finder"
+msgstr "Buscador de medios rotos de WP"
+
+msgid "You do not have permission to export."
+msgstr "No tienes permiso para exportar."
+
+msgid "broken links"
+msgstr "enlaces rotos"
+
+msgid "missing featured"
+msgstr "faltante destacado"
+
+msgid "missing images"
+msgstr "imágenes faltantes"
+
+msgid "total issues"
+msgstr "problemas totales"
+
+msgid "unused media"
+msgstr "medios no utilizados"
+

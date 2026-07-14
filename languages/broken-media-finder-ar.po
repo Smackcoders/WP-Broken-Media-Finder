@@ -1,0 +1,431 @@
+# Translation of Broken Media Finder in Arabic
+# This file is distributed under the same license as the Broken Media Finder plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Broken Media Finder 1.0.0\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+
+msgid "%d issue found"
+msgstr "تم العثور على المشكلة"
+
+msgid "%d issues found"
+msgstr "لم يتم العثور على اى مشكلات."
+
+msgid "%d scan recorded"
+msgstr "تم تسجيل %d مسح ضوئي"
+
+msgid "%d scans recorded"
+msgstr "تم تسجيل %d مسح ضوئي"
+
+msgid "404 Not Found"
+msgstr "404 غير موجود"
+
+msgid "410 Gone"
+msgstr "410 ذهب"
+
+msgid "Actions"
+msgstr "الإجراءات"
+
+msgid "Advanced"
+msgstr "متقدّم"
+
+msgid "All Severities"
+msgstr "جميع حالات الخطورة"
+
+msgid "All Statuses"
+msgstr "كل الحالات"
+
+msgid "All Types"
+msgstr "كافة الانواع"
+
+msgid "Also clear scan history"
+msgstr "امسح أيضًا محفوظات المسح الضوئي"
+
+msgid "Are you sure you want to delete this scan and its results? This cannot be undone."
+msgstr "هل أنت متأكد أنك تريد حذف هذا؟ هذا لا يمكن التراجع عنها."
+
+msgid "Attachment \"%1$s\" (#%2$d) appears unused."
+msgstr "يظهر المرفق \"%1$s\" (#%2$d) غير مستخدم."
+
+msgid "Attachment #%d"
+msgstr "المرفق د"
+
+msgid "Attachment ID"
+msgstr "معرف المرفق"
+
+msgid "Attachment Title"
+msgstr "عنوان المرفق"
+
+msgid "Broken Link"
+msgstr "ارتباط منقطع"
+
+msgid "Broken Links"
+msgstr "مكسور وصلات"
+
+msgid "Broken Media Finder"
+msgstr "أداة البحث عن الوسائط المعطلة"
+
+msgid "Broken Media Finder Settings"
+msgstr "إعدادات مكتشف الوسائط المعطلة"
+
+msgid "Broken Media Status"
+msgstr "حالة الوسائط المعطلة"
+
+msgid "Broken attachment link in \"%1$s\": %2$s"
+msgstr "ارتباط مرفق مقطوع في \"%1$s \": %2$s"
+
+msgid "Cannot replace: no post or source URL."
+msgstr "لا يمكن الاستبدال: لا يوجد رابط منشور أو مصدر."
+
+msgid "Choose Image"
+msgstr "اختر صورة"
+
+msgid "Clear Results"
+msgstr "پاک کردن نتایج"
+
+msgid "Clear scan history?"
+msgstr "مسح محفوظات المسح الضوئي ؟"
+
+msgid "Confirm — Delete All Results"
+msgstr ""
+
+msgid "Created At"
+msgstr "تم الإنشاء في"
+
+msgid "Created At GMT"
+msgstr "تم الإنشاء في"
+
+msgid "Custom Placeholder URL"
+msgstr "عنوان URL مخصص للعنصر النائب"
+
+msgid "DNS resolution failed"
+msgstr "فشل حل نظام أسماء النطاقات"
+
+msgid "Dashboard"
+msgstr "لوحة القيادة"
+
+msgid "Dashboard Widget"
+msgstr "سطح المكتب بريمجName"
+
+msgid "Date & Time"
+msgstr "التاريخ والوقت"
+
+msgid "Delete"
+msgstr "حذف"
+
+msgid "Delete Data on Uninstall"
+msgstr "حذف البيانات عند  إلغاء التثبيت"
+
+msgid "Delete all plugin data when uninstalling"
+msgstr "حذف جميع بيانات المكون الإضافي عند إلغاء التثبيت"
+
+msgid "Delete all scan results? This cannot be undone."
+msgstr "هل تريد حذف جميع نتائج الفحص ؟ لا يمكن التراجع عن هذا."
+
+msgid "Detailed Results"
+msgstr "النتائج التفصيلية"
+
+msgid "Detect missing featured image files"
+msgstr "الكشف عن ملفات الصور المميزة المفقودة"
+
+msgid "Enable Broken Media Finder"
+msgstr "تمكين أداة البحث عن الوسائط المعطلة"
+
+msgid "Enable Plugin"
+msgstr "تفعيل  هذه الاضافه"
+
+msgid "Error Type"
+msgstr "نوع الخطأ:"
+
+msgid "Export CSV"
+msgstr "تصدير ملف CSV"
+
+msgid "File Path"
+msgstr "مسیر فایل"
+
+msgid "Filter"
+msgstr "[ترجمة المصطلح: Filter]"
+
+msgid "Fixed"
+msgstr "ثابت"
+
+msgid "Go to Broken Media Finder"
+msgstr "انتقل إلى أداة البحث عن الوسائط المعطلة"
+
+msgid "Go to Dashboard"
+msgstr "الانتقال إلى لوحة المعلومات"
+
+msgid "HTTP Error %d"
+msgstr "خطأ HTTP %d"
+
+msgid "High"
+msgstr "مرتفع"
+
+msgid "Ignore"
+msgstr "[ترجمة المصطلح: Ignore]"
+
+msgid "Ignored"
+msgstr "متجاهل"
+
+msgid "Image replaced with placeholder."
+msgstr "تم استبدال الصورة بعنصر نائب."
+
+msgid "Include media attached to a parent post in unused scan"
+msgstr "تضمين الوسائط المرفقة بمنشور ولي الأمر في المسح الضوئي غير المستخدم"
+
+msgid "Invalid URL format"
+msgstr "صيغة الرابط غير صالحة"
+
+msgid "Invalid host"
+msgstr "مضيف MNet غير صالح"
+
+msgid "Invalid scan ID or the requested scan results are no longer available."
+msgstr "لم يعد معرّف المسح الضوئي غير صالح أو نتائج المسح الضوئي المطلوبة متوفرة."
+
+msgid "Issue Type"
+msgstr "نوع المشكلة"
+
+msgid "Item Type"
+msgstr "نوع البند"
+
+msgid "Keep Previous Results"
+msgstr "النتائج السابقة"
+
+msgid "Keep previous scan results when running a new scan"
+msgstr "احتفظ بنتائج الفحص السابقة عند إجراء فحص جديد"
+
+msgid "Last scan: %s"
+msgstr "آخر فحص: %s"
+
+msgid "List unused media attachments"
+msgstr "قائمة مرفقات الوسائط غير المستخدمة"
+
+msgid "Local file does not exist"
+msgstr "الملف المحلي غير موجود"
+
+msgid "Low"
+msgstr "منخفض"
+
+msgid "Mark Fixed"
+msgstr "وضع علامة ثابت"
+
+msgid "Media Scan"
+msgstr "البحث عن الوسائط المتعددة"
+
+msgid "Medium"
+msgstr "متوسطة"
+
+msgid "Message"
+msgstr "[ترجمة المصطلح: Message]"
+
+msgid "Missing Featured"
+msgstr "مميز مفقود"
+
+msgid "Missing Image"
+msgstr "الصورة مفقودة"
+
+msgid "Missing Images"
+msgstr "صور مفقودة"
+
+msgid "Missing featured image file for \"%1$s\" (attachment #%2$d)."
+msgstr "ملف صورة مميزة مفقود لـ \"%1$s\" (المرفق #%2$d)."
+
+msgid "Missing file"
+msgstr "ملف مفقود"
+
+msgid "Missing image in \"%1$s\": %2$s (Error: %3$s)"
+msgstr "صورة مفقودة في \"%1$s \": %2$s (خطأ: %3$s)"
+
+msgid "Missing image in Widget [%1$s #%2$d]: %3$s (Error: %4$s)"
+msgstr "صورة مفقودة في القطعة [%1$s # %2$d]: %3$s (خطأ: %4$s)"
+
+msgid "N/A"
+msgstr "غير متوفر"
+
+msgid "No issues found for this filter."
+msgstr "لم يتم العثور على مشاكل لهذا الفلتر."
+
+msgid "No scan has been run yet."
+msgstr "لم يتم إجراء أي فحص حتى الآن."
+
+msgid "No scan has been run yet. Click \"Run New Scan\" to get started."
+msgstr "لم يتم إجراء أي فحص حتى الآن. اضغط على \"تشغيل فحص جديد\" للبدء."
+
+msgid "No scan history found. Run a new scan from the dashboard."
+msgstr "لم يتم العثور على محفوظات المسح الضوئي. قم بإجراء مسح ضوئي جديد من لوحة المعلومات."
+
+msgid "Not scanned"
+msgstr "غير ممسوح ضوئيًا "
+
+msgid "Note: Unused media detection may produce false positives. Review results carefully before deleting any files."
+msgstr "ملاحظة: قد يؤدي اكتشاف الوسائط غير المستخدمة إلى نتائج إيجابية خاطئة. راجع النتائج بعناية قبل حذف أي ملفات."
+
+msgid "Open"
+msgstr "مصدر مفتوح"
+
+msgid "Permission denied."
+msgstr "طلب الإذن مرفوض."
+
+msgid "Placeholder Applied"
+msgstr "تم تطبيق العنصر النائب"
+
+msgid "Placeholder Source"
+msgstr "مصدر العنصر النائب"
+
+msgid "Post"
+msgstr "."
+
+msgid "Post ID"
+msgstr "معرف المشاركة"
+
+msgid "Post Title"
+msgstr "عنوان المشاركة"
+
+msgid "Post Types"
+msgstr "أنواع المنشور"
+
+msgid "Post not found."
+msgstr "تعذر العثور على المنشور."
+
+msgid "Repair"
+msgstr "13.1 الإصلاح"
+
+msgid "Replace this image with the placeholder? This modifies post content."
+msgstr "هل تريد استبدال هذه الصورة بالعنصر النائب ؟ يؤدي هذا إلى تعديل محتوى المنشور."
+
+msgid "Request timed out"
+msgstr "انتهت مهلة الطلب"
+
+msgid "Reset"
+msgstr "إعادة ضبط"
+
+msgid "Resolved URL"
+msgstr "عنوان URL الذي تم حله"
+
+msgid "Result ID"
+msgstr "هوية النتيجة"
+
+msgid "Run New Scan"
+msgstr "تشغيل مسح ضوئي جديد"
+
+msgid "Save Settings"
+msgstr "احفظ التغييرات"
+
+msgid "Scan"
+msgstr "مسح ضوئي"
+
+msgid "Scan Date"
+msgstr "تاريخ المسح (الفحص)"
+
+msgid "Scan History"
+msgstr "سجل المسح الضوئي"
+
+msgid "Scan ID"
+msgstr "مسح ضوئي لبطاقة الهوية"
+
+msgid "Scan Types"
+msgstr "أنواع المسح الضوئي"
+
+msgid "Scan complete. %d issue found."
+msgstr "اكتمل المسح الضوئي. تم العثور على مشكلة %d."
+
+msgid "Scan complete. %d issues found."
+msgstr "اكتمل المسح. تم العثور على مشكلات %d."
+
+msgid "Scan content for broken attachment links"
+msgstr "مسح المحتوى بحثًا عن روابط المرفقات المعطلة"
+
+msgid "Scan content for missing images"
+msgstr "مسح المحتوى بحثًا عن الصور المفقودة"
+
+msgid "Scan result not found."
+msgstr "النتيجة غير موجودة"
+
+msgid "Scan results cleared."
+msgstr "مسح نتائج المسح الضوئي."
+
+msgid "Search URL or message..."
+msgstr "البحث عن عنوان URL أو الرسالة..."
+
+msgid "Security check failed."
+msgstr "فشل التحقق من الأمان."
+
+msgid "Select from Media Library or enter a URL."
+msgstr "اختر من مكتبة الوسائط أو أدخل عنوان URL."
+
+msgid "Settings"
+msgstr "الإعدادات"
+
+msgid "Severity"
+msgstr "الحدة"
+
+msgid "Show scan summary widget on dashboard"
+msgstr "عرض أداة ملخص المسح الضوئي على لوحة المعلومات"
+
+msgid "Source URL"
+msgstr "عنوان URL المصدر"
+
+msgid "Status"
+msgstr "الحالة"
+
+msgid "Total Issues"
+msgstr "إجمالي المشكلات"
+
+msgid "Type"
+msgstr "النوع"
+
+msgid "URL not found in post content."
+msgstr "لم يتم العثور على عنوان URL في محتوى المنشور."
+
+msgid "Unused"
+msgstr "[ترجمة المصطلح: Unused]"
+
+msgid "Unused Media"
+msgstr "الوسائط غير المستخدمة"
+
+msgid "Unused Media Options"
+msgstr "خيارات الوسائط غير المستخدمة"
+
+msgid "Use Placeholder"
+msgstr "استخدام العنصر النائب"
+
+msgid "Use custom URL"
+msgstr "رابط مخصص"
+
+msgid "Use default plugin placeholder"
+msgstr "استخدم العنصر النائب الافتراضي للإضافة"
+
+msgid "Used"
+msgstr "المستخدَم"
+
+msgid "View Dashboard"
+msgstr "عرض لوحة البيانات"
+
+msgid "View Results"
+msgstr "عرض النتائج"
+
+msgid "WP Broken Media Finder"
+msgstr "الفسفور الأبيض مكسور وسائل الإعلام مكتشف"
+
+msgid "You do not have permission to export."
+msgstr "ليس لديك إذن لتصدير البيانات."
+
+msgid "broken links"
+msgstr "مكسور وصلات"
+
+msgid "missing featured"
+msgstr "مميز مفقود"
+
+msgid "missing images"
+msgstr "الصور المفقودة"
+
+msgid "total issues"
+msgstr "إجمالي المشكلات"
+
+msgid "unused media"
+msgstr "الوسائط غير المستخدمة"
+

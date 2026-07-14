@@ -1,0 +1,431 @@
+# Translation of Broken Media Finder in Turkish
+# This file is distributed under the same license as the Broken Media Finder plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Broken Media Finder 1.0.0\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%d issue found"
+msgstr "%d sorunu bulundu"
+
+msgid "%d issues found"
+msgstr "%d sorun bulundu"
+
+msgid "%d scan recorded"
+msgstr "%d tarama kaydedildi"
+
+msgid "%d scans recorded"
+msgstr "%d tarama kaydedildi"
+
+msgid "404 Not Found"
+msgstr "404 Bulunamadı"
+
+msgid "410 Gone"
+msgstr "410 Gitti"
+
+msgid "Actions"
+msgstr "Eylemler"
+
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+msgid "All Severities"
+msgstr "Tüm Önem Dereceleri"
+
+msgid "All Statuses"
+msgstr "Tüm Durumlar"
+
+msgid "All Types"
+msgstr "Tüm Türler"
+
+msgid "Also clear scan history"
+msgstr "Tarama geçmişini de temizle"
+
+msgid "Are you sure you want to delete this scan and its results? This cannot be undone."
+msgstr "Bu taramayı ve sonuçlarını silmek istediğinizden emin misiniz? Bu geri alınamaz."
+
+msgid "Attachment \"%1$s\" (#%2$d) appears unused."
+msgstr "\"%1$s\" (#%2$d) eki kullanılmamış görünüyor."
+
+msgid "Attachment #%d"
+msgstr "Ek #%d"
+
+msgid "Attachment ID"
+msgstr "Ek Kimliği"
+
+msgid "Attachment Title"
+msgstr "Ek Başlığı"
+
+msgid "Broken Link"
+msgstr "Kırık Bağlantı"
+
+msgid "Broken Links"
+msgstr "Kırık Bağlantılar"
+
+msgid "Broken Media Finder"
+msgstr "Kırık Medya Bulucu"
+
+msgid "Broken Media Finder Settings"
+msgstr "Bozuk Medya Bulucu Ayarları"
+
+msgid "Broken Media Status"
+msgstr "Bozuk Medya Durumu"
+
+msgid "Broken attachment link in \"%1$s\": %2$s"
+msgstr "\"%1$s\"daki ek bağlantısı bozuk: %2$s"
+
+msgid "Cannot replace: no post or source URL."
+msgstr "Değiştirilemiyor: gönderi veya kaynak URL'si yok."
+
+msgid "Choose Image"
+msgstr "Resim Seç"
+
+msgid "Clear Results"
+msgstr "Sonuçları Temizle"
+
+msgid "Clear scan history?"
+msgstr "Tarama geçmişi temizlensin mi?"
+
+msgid "Confirm — Delete All Results"
+msgstr ""
+
+msgid "Created At"
+msgstr "Oluşturulma Tarihi"
+
+msgid "Created At GMT"
+msgstr "GMT'de oluşturuldu"
+
+msgid "Custom Placeholder URL"
+msgstr "Özel Yer Tutucu URL'si"
+
+msgid "DNS resolution failed"
+msgstr "DNS çözümlemesi başarısız oldu"
+
+msgid "Dashboard"
+msgstr "Kontrol Paneli"
+
+msgid "Dashboard Widget"
+msgstr "Kontrol Paneli Widget'ı"
+
+msgid "Date & Time"
+msgstr "Tarih ve Saat"
+
+msgid "Delete"
+msgstr "Silmek"
+
+msgid "Delete Data on Uninstall"
+msgstr "Kaldırma Sırasında Verileri Sil"
+
+msgid "Delete all plugin data when uninstalling"
+msgstr "Kaldırma sırasında tüm eklenti verilerini silin"
+
+msgid "Delete all scan results? This cannot be undone."
+msgstr "Tüm tarama sonuçları silinsin mi? Bu geri alınamaz."
+
+msgid "Detailed Results"
+msgstr "Ayrıntılı Sonuçlar"
+
+msgid "Detect missing featured image files"
+msgstr "Eksik öne çıkan görsel dosyalarını tespit edin"
+
+msgid "Enable Broken Media Finder"
+msgstr "Bozuk Medya Bulucuyu Etkinleştir"
+
+msgid "Enable Plugin"
+msgstr "Eklentiyi Etkinleştir"
+
+msgid "Error Type"
+msgstr "Hata Türü"
+
+msgid "Export CSV"
+msgstr "CSV'yi dışa aktar"
+
+msgid "File Path"
+msgstr "Dosya Yolu"
+
+msgid "Filter"
+msgstr "Filtre"
+
+msgid "Fixed"
+msgstr "Sabit"
+
+msgid "Go to Broken Media Finder"
+msgstr "Kırık Medya Bulucuya Git"
+
+msgid "Go to Dashboard"
+msgstr "Kontrol Paneline Git"
+
+msgid "HTTP Error %d"
+msgstr "HTTP Hatası %d"
+
+msgid "High"
+msgstr "Yüksek"
+
+msgid "Ignore"
+msgstr "Görmezden gelmek"
+
+msgid "Ignored"
+msgstr "Yoksayıldı"
+
+msgid "Image replaced with placeholder."
+msgstr "Resim yer tutucuyla değiştirildi."
+
+msgid "Include media attached to a parent post in unused scan"
+msgstr "Kullanılmayan taramaya bir ana gönderiye eklenen medyayı dahil et"
+
+msgid "Invalid URL format"
+msgstr "Geçersiz URL biçimi"
+
+msgid "Invalid host"
+msgstr "Geçersiz ana bilgisayar"
+
+msgid "Invalid scan ID or the requested scan results are no longer available."
+msgstr "Geçersiz tarama kimliği veya istenen tarama sonuçları artık mevcut değil."
+
+msgid "Issue Type"
+msgstr "Sorun Türü"
+
+msgid "Item Type"
+msgstr "Öğe Türü"
+
+msgid "Keep Previous Results"
+msgstr "Önceki Sonuçları Koru"
+
+msgid "Keep previous scan results when running a new scan"
+msgstr "Yeni bir tarama çalıştırırken önceki tarama sonuçlarını koruyun"
+
+msgid "Last scan: %s"
+msgstr "Son tarama: %s"
+
+msgid "List unused media attachments"
+msgstr "Kullanılmayan medya eklerini listeleyin"
+
+msgid "Local file does not exist"
+msgstr "Yerel dosya mevcut değil"
+
+msgid "Low"
+msgstr "Düşük"
+
+msgid "Mark Fixed"
+msgstr "Sabit Olarak İşaretle"
+
+msgid "Media Scan"
+msgstr "Medya Taraması"
+
+msgid "Medium"
+msgstr "Orta"
+
+msgid "Message"
+msgstr "Mesaj"
+
+msgid "Missing Featured"
+msgstr "Eksik Öne Çıkanlar"
+
+msgid "Missing Image"
+msgstr "Eksik Resim"
+
+msgid "Missing Images"
+msgstr "Eksik Resimler"
+
+msgid "Missing featured image file for \"%1$s\" (attachment #%2$d)."
+msgstr "\"%1$s\" için öne çıkan resim dosyası eksik (ek #%2$d)."
+
+msgid "Missing file"
+msgstr "Eksik dosya"
+
+msgid "Missing image in \"%1$s\": %2$s (Error: %3$s)"
+msgstr "\"%1$s\"da eksik resim: %2$s (Hata: %3$s)"
+
+msgid "Missing image in Widget [%1$s #%2$d]: %3$s (Error: %4$s)"
+msgstr "Widget'ta eksik resim [%1$s #%2$d]: %3$s (Hata: %4$s)"
+
+msgid "N/A"
+msgstr "Yok"
+
+msgid "No issues found for this filter."
+msgstr "Bu filtre için sorun bulunamadı."
+
+msgid "No scan has been run yet."
+msgstr "Henüz hiçbir tarama yapılmadı."
+
+msgid "No scan has been run yet. Click \"Run New Scan\" to get started."
+msgstr "Henüz hiçbir tarama yapılmadı. Başlamak için \"Yeni Tarama Çalıştır\"ı tıklayın."
+
+msgid "No scan history found. Run a new scan from the dashboard."
+msgstr "Tarama geçmişi bulunamadı. Kontrol panelinden yeni bir tarama çalıştırın."
+
+msgid "Not scanned"
+msgstr "Taranmadı"
+
+msgid "Note: Unused media detection may produce false positives. Review results carefully before deleting any files."
+msgstr "Not: Kullanılmayan ortam tespiti hatalı pozitif sonuçlar üretebilir. Herhangi bir dosyayı silmeden önce sonuçları dikkatlice inceleyin."
+
+msgid "Open"
+msgstr "Açık"
+
+msgid "Permission denied."
+msgstr "İzin reddedildi."
+
+msgid "Placeholder Applied"
+msgstr "Yer Tutucu Uygulandı"
+
+msgid "Placeholder Source"
+msgstr "Yer Tutucu Kaynağı"
+
+msgid "Post"
+msgstr "Postalamak"
+
+msgid "Post ID"
+msgstr "Gönderi kimliği"
+
+msgid "Post Title"
+msgstr "Gönderi Başlığı"
+
+msgid "Post Types"
+msgstr "Gönderi Türleri"
+
+msgid "Post not found."
+msgstr "Gönderi bulunamadı."
+
+msgid "Repair"
+msgstr "Tamirat"
+
+msgid "Replace this image with the placeholder? This modifies post content."
+msgstr "Bu resim yer tutucuyla değiştirilsin mi? Bu, gönderi içeriğini değiştirir."
+
+msgid "Request timed out"
+msgstr "İstek zaman aşımına uğradı"
+
+msgid "Reset"
+msgstr "Sıfırla"
+
+msgid "Resolved URL"
+msgstr "Çözümlenen URL"
+
+msgid "Result ID"
+msgstr "Sonuç Kimliği"
+
+msgid "Run New Scan"
+msgstr "Yeni Taramayı Çalıştır"
+
+msgid "Save Settings"
+msgstr "Ayarları Kaydet"
+
+msgid "Scan"
+msgstr "Tara"
+
+msgid "Scan Date"
+msgstr "Tarama Tarihi"
+
+msgid "Scan History"
+msgstr "Tarama Geçmişi"
+
+msgid "Scan ID"
+msgstr "Tarama Kimliği"
+
+msgid "Scan Types"
+msgstr "Tarama Türleri"
+
+msgid "Scan complete. %d issue found."
+msgstr "Tarama tamamlandı. %d sorunu bulundu."
+
+msgid "Scan complete. %d issues found."
+msgstr "Tarama tamamlandı. %d sorun bulundu."
+
+msgid "Scan content for broken attachment links"
+msgstr "Bozuk ek bağlantıları için içeriği tarayın"
+
+msgid "Scan content for missing images"
+msgstr "Eksik görseller için içeriği tarayın"
+
+msgid "Scan result not found."
+msgstr "Tarama sonucu bulunamadı."
+
+msgid "Scan results cleared."
+msgstr "Tarama sonuçları temizlendi."
+
+msgid "Search URL or message..."
+msgstr "URL'yi veya mesajı arayın..."
+
+msgid "Security check failed."
+msgstr "Güvenlik kontrolü başarısız oldu."
+
+msgid "Select from Media Library or enter a URL."
+msgstr "Medya Kitaplığı'ndan seçin veya bir URL girin."
+
+msgid "Settings"
+msgstr "Ayarlar"
+
+msgid "Severity"
+msgstr "Şiddet"
+
+msgid "Show scan summary widget on dashboard"
+msgstr "Kontrol panelinde tarama özeti widget'ını göster"
+
+msgid "Source URL"
+msgstr "Kaynak URL'si"
+
+msgid "Status"
+msgstr "Durum"
+
+msgid "Total Issues"
+msgstr "Toplam Sayı"
+
+msgid "Type"
+msgstr "Tip"
+
+msgid "URL not found in post content."
+msgstr "Gönderi içeriğinde URL bulunamadı."
+
+msgid "Unused"
+msgstr "Kullanılmayan"
+
+msgid "Unused Media"
+msgstr "Kullanılmayan Medya"
+
+msgid "Unused Media Options"
+msgstr "Kullanılmayan Medya Seçenekleri"
+
+msgid "Use Placeholder"
+msgstr "Yer Tutucuyu Kullan"
+
+msgid "Use custom URL"
+msgstr "Özel URL kullan"
+
+msgid "Use default plugin placeholder"
+msgstr "Varsayılan eklenti yer tutucusunu kullan"
+
+msgid "Used"
+msgstr "Kullanılmış"
+
+msgid "View Dashboard"
+msgstr "Kontrol Panelini Görüntüle"
+
+msgid "View Results"
+msgstr "Sonuçları Görüntüle"
+
+msgid "WP Broken Media Finder"
+msgstr "WP Kırık Medya Bulucu"
+
+msgid "You do not have permission to export."
+msgstr "Dışa aktarma izniniz yok."
+
+msgid "broken links"
+msgstr "kırık bağlantılar"
+
+msgid "missing featured"
+msgstr "eksik öne çıkanlar"
+
+msgid "missing images"
+msgstr "eksik görseller"
+
+msgid "total issues"
+msgstr "toplam sayı"
+
+msgid "unused media"
+msgstr "kullanılmayan medya"
+

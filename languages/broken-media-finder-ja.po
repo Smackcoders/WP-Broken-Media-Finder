@@ -1,0 +1,431 @@
+# Translation of Broken Media Finder in Japanese
+# This file is distributed under the same license as the Broken Media Finder plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Broken Media Finder 1.0.0\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "%d issue found"
+msgstr "%d の問題が見つかりました"
+
+msgid "%d issues found"
+msgstr "%d 件の問題が見つかりました"
+
+msgid "%d scan recorded"
+msgstr "%d スキャンが記録されました"
+
+msgid "%d scans recorded"
+msgstr "%d スキャンが記録されました"
+
+msgid "404 Not Found"
+msgstr "404 見つかりません"
+
+msgid "410 Gone"
+msgstr "410 ゴーン"
+
+msgid "Actions"
+msgstr "アクション"
+
+msgid "Advanced"
+msgstr "高度な"
+
+msgid "All Severities"
+msgstr "すべての重大度"
+
+msgid "All Statuses"
+msgstr "すべてのステータス"
+
+msgid "All Types"
+msgstr "全種類"
+
+msgid "Also clear scan history"
+msgstr "スキャン履歴もクリア"
+
+msgid "Are you sure you want to delete this scan and its results? This cannot be undone."
+msgstr "このスキャンとその結果を削除してもよろしいですか?これを元に戻すことはできません。"
+
+msgid "Attachment \"%1$s\" (#%2$d) appears unused."
+msgstr "添付ファイル「%1$s」(#%2$d) は未使用のようです。"
+
+msgid "Attachment #%d"
+msgstr "添付ファイル #%d"
+
+msgid "Attachment ID"
+msgstr "添付ファイルID"
+
+msgid "Attachment Title"
+msgstr "添付ファイルのタイトル"
+
+msgid "Broken Link"
+msgstr "リンク切れ"
+
+msgid "Broken Links"
+msgstr "リンク切れ"
+
+msgid "Broken Media Finder"
+msgstr "壊れたメディアファインダー"
+
+msgid "Broken Media Finder Settings"
+msgstr "壊れたメディア ファインダーの設定"
+
+msgid "Broken Media Status"
+msgstr "壊れたメディアのステータス"
+
+msgid "Broken attachment link in \"%1$s\": %2$s"
+msgstr "「%1$s」の壊れた添付リンク: %2$s"
+
+msgid "Cannot replace: no post or source URL."
+msgstr "置換できません: 投稿またはソース URL がありません。"
+
+msgid "Choose Image"
+msgstr "画像の選択"
+
+msgid "Clear Results"
+msgstr "結果をクリア"
+
+msgid "Clear scan history?"
+msgstr "スキャン履歴をクリアしますか?"
+
+msgid "Confirm — Delete All Results"
+msgstr ""
+
+msgid "Created At"
+msgstr "作成日"
+
+msgid "Created At GMT"
+msgstr "GMT に作成"
+
+msgid "Custom Placeholder URL"
+msgstr "カスタム プレースホルダー URL"
+
+msgid "DNS resolution failed"
+msgstr "DNS解決に失敗しました"
+
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+msgid "Dashboard Widget"
+msgstr "ダッシュボードウィジェット"
+
+msgid "Date & Time"
+msgstr "日付と時刻"
+
+msgid "Delete"
+msgstr "消去"
+
+msgid "Delete Data on Uninstall"
+msgstr "アンインストール時にデータを削除する"
+
+msgid "Delete all plugin data when uninstalling"
+msgstr "アンインストール時にプラグインデータをすべて削除する"
+
+msgid "Delete all scan results? This cannot be undone."
+msgstr "すべてのスキャン結果を削除しますか?これを元に戻すことはできません。"
+
+msgid "Detailed Results"
+msgstr "詳細結果"
+
+msgid "Detect missing featured image files"
+msgstr "不足している注目の画像ファイルを検出する"
+
+msgid "Enable Broken Media Finder"
+msgstr "壊れたメディアファインダーを有効にする"
+
+msgid "Enable Plugin"
+msgstr "プラグインを有効にする"
+
+msgid "Error Type"
+msgstr "エラーの種類"
+
+msgid "Export CSV"
+msgstr "CSVのエクスポート"
+
+msgid "File Path"
+msgstr "ファイルパス"
+
+msgid "Filter"
+msgstr "フィルター"
+
+msgid "Fixed"
+msgstr "修理済み"
+
+msgid "Go to Broken Media Finder"
+msgstr "壊れたメディアファインダーに移動します"
+
+msgid "Go to Dashboard"
+msgstr "ダッシュボードに移動"
+
+msgid "HTTP Error %d"
+msgstr "HTTP エラー %d"
+
+msgid "High"
+msgstr "高い"
+
+msgid "Ignore"
+msgstr "無視する"
+
+msgid "Ignored"
+msgstr "無視されました"
+
+msgid "Image replaced with placeholder."
+msgstr "画像がプレースホルダーに置き換えられました。"
+
+msgid "Include media attached to a parent post in unused scan"
+msgstr "親投稿に添付されたメディアを未使用のスキャンに含める"
+
+msgid "Invalid URL format"
+msgstr "無効な URL 形式"
+
+msgid "Invalid host"
+msgstr "無効なホスト"
+
+msgid "Invalid scan ID or the requested scan results are no longer available."
+msgstr "スキャン ID が無効であるか、要求されたスキャン結果は利用できません。"
+
+msgid "Issue Type"
+msgstr "問題の種類"
+
+msgid "Item Type"
+msgstr "アイテムの種類"
+
+msgid "Keep Previous Results"
+msgstr "以前の結果を保持する"
+
+msgid "Keep previous scan results when running a new scan"
+msgstr "新しいスキャンを実行するときに以前のスキャン結果を保持する"
+
+msgid "Last scan: %s"
+msgstr "最終スキャン: %s"
+
+msgid "List unused media attachments"
+msgstr "未使用のメディア添付ファイルをリストする"
+
+msgid "Local file does not exist"
+msgstr "ローカルファイルが存在しません"
+
+msgid "Low"
+msgstr "低い"
+
+msgid "Mark Fixed"
+msgstr "修正済みにする"
+
+msgid "Media Scan"
+msgstr "メディアスキャン"
+
+msgid "Medium"
+msgstr "中くらい"
+
+msgid "Message"
+msgstr "メッセージ"
+
+msgid "Missing Featured"
+msgstr "アイキャッチ画像なし"
+
+msgid "Missing Image"
+msgstr "リンク切れ画像"
+
+msgid "Missing Images"
+msgstr "リンク切れ画像"
+
+msgid "Missing featured image file for \"%1$s\" (attachment #%2$d)."
+msgstr "「%1$s」の注目の画像ファイルがありません (添付ファイル #%2$d)。"
+
+msgid "Missing file"
+msgstr "ファイルがありません"
+
+msgid "Missing image in \"%1$s\": %2$s (Error: %3$s)"
+msgstr "「%1$s」に画像がありません: %2$s (エラー: %3$s)"
+
+msgid "Missing image in Widget [%1$s #%2$d]: %3$s (Error: %4$s)"
+msgstr "ウィジェット [%1$s #%2$d] に画像がありません: %3$s (エラー: %4$s)"
+
+msgid "N/A"
+msgstr "該当なし"
+
+msgid "No issues found for this filter."
+msgstr "このフィルターに該当する問題は見つかりませんでした。"
+
+msgid "No scan has been run yet."
+msgstr "スキャンはまだ実行されていません。"
+
+msgid "No scan has been run yet. Click \"Run New Scan\" to get started."
+msgstr "スキャンはまだ実行されていません。 「新しいスキャンを実行」をクリックして開始します。"
+
+msgid "No scan history found. Run a new scan from the dashboard."
+msgstr "スキャン履歴が見つかりませんでした。ダッシュボードから新しいスキャンを実行します。"
+
+msgid "Not scanned"
+msgstr "スキャンされていません"
+
+msgid "Note: Unused media detection may produce false positives. Review results carefully before deleting any files."
+msgstr "注: 未使用のメディアの検出により、誤検知が発生する可能性があります。ファイルを削除する前に、結果を注意深く確認してください。"
+
+msgid "Open"
+msgstr "開ける"
+
+msgid "Permission denied."
+msgstr "許可が拒否されました。"
+
+msgid "Placeholder Applied"
+msgstr "プレースホルダが適用されました"
+
+msgid "Placeholder Source"
+msgstr "プレースホルダーソース"
+
+msgid "Post"
+msgstr "役職"
+
+msgid "Post ID"
+msgstr "投稿ID"
+
+msgid "Post Title"
+msgstr "投稿タイトル"
+
+msgid "Post Types"
+msgstr "投稿タイプ"
+
+msgid "Post not found."
+msgstr "投稿が見つかりません。"
+
+msgid "Repair"
+msgstr "修理"
+
+msgid "Replace this image with the placeholder? This modifies post content."
+msgstr "この画像をプレースホルダーに置き換えますか?これにより投稿の内容が変更されます。"
+
+msgid "Request timed out"
+msgstr "リクエストがタイムアウトしました"
+
+msgid "Reset"
+msgstr "リセット"
+
+msgid "Resolved URL"
+msgstr "解決されたURL"
+
+msgid "Result ID"
+msgstr "結果ID"
+
+msgid "Run New Scan"
+msgstr "新しいスキャンを実行"
+
+msgid "Save Settings"
+msgstr "設定の保存"
+
+msgid "Scan"
+msgstr "スキャン"
+
+msgid "Scan Date"
+msgstr "スキャン日"
+
+msgid "Scan History"
+msgstr "スキャン履歴"
+
+msgid "Scan ID"
+msgstr "スキャンID"
+
+msgid "Scan Types"
+msgstr "スキャンの種類"
+
+msgid "Scan complete. %d issue found."
+msgstr "スキャンが完了しました。 %d の問題が見つかりました。"
+
+msgid "Scan complete. %d issues found."
+msgstr "スキャンが完了しました。 %d の問題が見つかりました。"
+
+msgid "Scan content for broken attachment links"
+msgstr "コンテンツをスキャンして壊れた添付ファイルのリンクがないか確認する"
+
+msgid "Scan content for missing images"
+msgstr "コンテンツをスキャンして欠落している画像を見つける"
+
+msgid "Scan result not found."
+msgstr "スキャン結果が見つかりません。"
+
+msgid "Scan results cleared."
+msgstr "スキャン結果がクリアされました。"
+
+msgid "Search URL or message..."
+msgstr "URLまたはメッセージを検索..."
+
+msgid "Security check failed."
+msgstr "セキュリティチェックに失敗しました。"
+
+msgid "Select from Media Library or enter a URL."
+msgstr "メディア ライブラリから選択するか、URL を入力します。"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Severity"
+msgstr "重大度"
+
+msgid "Show scan summary widget on dashboard"
+msgstr "ダッシュボードにスキャン概要ウィジェットを表示"
+
+msgid "Source URL"
+msgstr "ソースURL"
+
+msgid "Status"
+msgstr "状態"
+
+msgid "Total Issues"
+msgstr "検出された問題"
+
+msgid "Type"
+msgstr "タイプ"
+
+msgid "URL not found in post content."
+msgstr "投稿コンテンツに URL が見つかりません。"
+
+msgid "Unused"
+msgstr "未使用"
+
+msgid "Unused Media"
+msgstr "未使用のメディア"
+
+msgid "Unused Media Options"
+msgstr "未使用のメディアオプション"
+
+msgid "Use Placeholder"
+msgstr "プレースホルダーを使用する"
+
+msgid "Use custom URL"
+msgstr "カスタム URL を使用する"
+
+msgid "Use default plugin placeholder"
+msgstr "デフォルトのプラグインプレースホルダーを使用する"
+
+msgid "Used"
+msgstr "使用済み"
+
+msgid "View Dashboard"
+msgstr "ダッシュボードを表示する"
+
+msgid "View Results"
+msgstr "結果を見る"
+
+msgid "WP Broken Media Finder"
+msgstr "WP 壊れたメディア ファインダー"
+
+msgid "You do not have permission to export."
+msgstr "エクスポートする権限がありません。"
+
+msgid "broken links"
+msgstr "壊れたリンク"
+
+msgid "missing featured"
+msgstr "注目の機能がありません"
+
+msgid "missing images"
+msgstr "不足している画像"
+
+msgid "total issues"
+msgstr "検出された問題"
+
+msgid "unused media"
+msgstr "未使用のメディア"
+

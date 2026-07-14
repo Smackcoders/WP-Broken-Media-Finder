@@ -1,0 +1,431 @@
+# Translation of Broken Media Finder in English (UK)
+# This file is distributed under the same license as the Broken Media Finder plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Broken Media Finder 1.0.0\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%d issue found"
+msgstr ""
+
+msgid "%d issues found"
+msgstr ""
+
+msgid "%d scan recorded"
+msgstr ""
+
+msgid "%d scans recorded"
+msgstr ""
+
+msgid "404 Not Found"
+msgstr ""
+
+msgid "410 Gone"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Advanced"
+msgstr ""
+
+msgid "All Severities"
+msgstr ""
+
+msgid "All Statuses"
+msgstr ""
+
+msgid "All Types"
+msgstr ""
+
+msgid "Also clear scan history"
+msgstr ""
+
+msgid "Are you sure you want to delete this scan and its results? This cannot be undone."
+msgstr ""
+
+msgid "Attachment \"%1$s\" (#%2$d) appears unused."
+msgstr ""
+
+msgid "Attachment #%d"
+msgstr ""
+
+msgid "Attachment ID"
+msgstr ""
+
+msgid "Attachment Title"
+msgstr ""
+
+msgid "Broken Link"
+msgstr ""
+
+msgid "Broken Links"
+msgstr ""
+
+msgid "Broken Media Finder"
+msgstr ""
+
+msgid "Broken Media Finder Settings"
+msgstr ""
+
+msgid "Broken Media Status"
+msgstr ""
+
+msgid "Broken attachment link in \"%1$s\": %2$s"
+msgstr ""
+
+msgid "Cannot replace: no post or source URL."
+msgstr ""
+
+msgid "Choose Image"
+msgstr ""
+
+msgid "Clear Results"
+msgstr ""
+
+msgid "Clear scan history?"
+msgstr ""
+
+msgid "Confirm — Delete All Results"
+msgstr ""
+
+msgid "Created At"
+msgstr ""
+
+msgid "Created At GMT"
+msgstr ""
+
+msgid "Custom Placeholder URL"
+msgstr ""
+
+msgid "DNS resolution failed"
+msgstr ""
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "Dashboard Widget"
+msgstr ""
+
+msgid "Date & Time"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete Data on Uninstall"
+msgstr ""
+
+msgid "Delete all plugin data when uninstalling"
+msgstr ""
+
+msgid "Delete all scan results? This cannot be undone."
+msgstr ""
+
+msgid "Detailed Results"
+msgstr ""
+
+msgid "Detect missing featured image files"
+msgstr ""
+
+msgid "Enable Broken Media Finder"
+msgstr ""
+
+msgid "Enable Plugin"
+msgstr ""
+
+msgid "Error Type"
+msgstr ""
+
+msgid "Export CSV"
+msgstr ""
+
+msgid "File Path"
+msgstr ""
+
+msgid "Filter"
+msgstr ""
+
+msgid "Fixed"
+msgstr ""
+
+msgid "Go to Broken Media Finder"
+msgstr ""
+
+msgid "Go to Dashboard"
+msgstr ""
+
+msgid "HTTP Error %d"
+msgstr ""
+
+msgid "High"
+msgstr ""
+
+msgid "Ignore"
+msgstr ""
+
+msgid "Ignored"
+msgstr ""
+
+msgid "Image replaced with placeholder."
+msgstr ""
+
+msgid "Include media attached to a parent post in unused scan"
+msgstr ""
+
+msgid "Invalid URL format"
+msgstr ""
+
+msgid "Invalid host"
+msgstr ""
+
+msgid "Invalid scan ID or the requested scan results are no longer available."
+msgstr ""
+
+msgid "Issue Type"
+msgstr ""
+
+msgid "Item Type"
+msgstr ""
+
+msgid "Keep Previous Results"
+msgstr ""
+
+msgid "Keep previous scan results when running a new scan"
+msgstr ""
+
+msgid "Last scan: %s"
+msgstr ""
+
+msgid "List unused media attachments"
+msgstr ""
+
+msgid "Local file does not exist"
+msgstr ""
+
+msgid "Low"
+msgstr ""
+
+msgid "Mark Fixed"
+msgstr ""
+
+msgid "Media Scan"
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Missing Featured"
+msgstr ""
+
+msgid "Missing Image"
+msgstr ""
+
+msgid "Missing Images"
+msgstr ""
+
+msgid "Missing featured image file for \"%1$s\" (attachment #%2$d)."
+msgstr ""
+
+msgid "Missing file"
+msgstr ""
+
+msgid "Missing image in \"%1$s\": %2$s (Error: %3$s)"
+msgstr ""
+
+msgid "Missing image in Widget [%1$s #%2$d]: %3$s (Error: %4$s)"
+msgstr ""
+
+msgid "N/A"
+msgstr ""
+
+msgid "No issues found for this filter."
+msgstr ""
+
+msgid "No scan has been run yet."
+msgstr ""
+
+msgid "No scan has been run yet. Click \"Run New Scan\" to get started."
+msgstr ""
+
+msgid "No scan history found. Run a new scan from the dashboard."
+msgstr ""
+
+msgid "Not scanned"
+msgstr ""
+
+msgid "Note: Unused media detection may produce false positives. Review results carefully before deleting any files."
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "Permission denied."
+msgstr ""
+
+msgid "Placeholder Applied"
+msgstr ""
+
+msgid "Placeholder Source"
+msgstr ""
+
+msgid "Post"
+msgstr ""
+
+msgid "Post ID"
+msgstr ""
+
+msgid "Post Title"
+msgstr ""
+
+msgid "Post Types"
+msgstr ""
+
+msgid "Post not found."
+msgstr ""
+
+msgid "Repair"
+msgstr ""
+
+msgid "Replace this image with the placeholder? This modifies post content."
+msgstr ""
+
+msgid "Request timed out"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Resolved URL"
+msgstr ""
+
+msgid "Result ID"
+msgstr ""
+
+msgid "Run New Scan"
+msgstr ""
+
+msgid "Save Settings"
+msgstr ""
+
+msgid "Scan"
+msgstr ""
+
+msgid "Scan Date"
+msgstr ""
+
+msgid "Scan History"
+msgstr ""
+
+msgid "Scan ID"
+msgstr ""
+
+msgid "Scan Types"
+msgstr ""
+
+msgid "Scan complete. %d issue found."
+msgstr ""
+
+msgid "Scan complete. %d issues found."
+msgstr ""
+
+msgid "Scan content for broken attachment links"
+msgstr ""
+
+msgid "Scan content for missing images"
+msgstr ""
+
+msgid "Scan result not found."
+msgstr ""
+
+msgid "Scan results cleared."
+msgstr ""
+
+msgid "Search URL or message..."
+msgstr ""
+
+msgid "Security check failed."
+msgstr ""
+
+msgid "Select from Media Library or enter a URL."
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Severity"
+msgstr ""
+
+msgid "Show scan summary widget on dashboard"
+msgstr ""
+
+msgid "Source URL"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Total Issues"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "URL not found in post content."
+msgstr ""
+
+msgid "Unused"
+msgstr ""
+
+msgid "Unused Media"
+msgstr ""
+
+msgid "Unused Media Options"
+msgstr ""
+
+msgid "Use Placeholder"
+msgstr ""
+
+msgid "Use custom URL"
+msgstr ""
+
+msgid "Use default plugin placeholder"
+msgstr ""
+
+msgid "Used"
+msgstr ""
+
+msgid "View Dashboard"
+msgstr ""
+
+msgid "View Results"
+msgstr ""
+
+msgid "WP Broken Media Finder"
+msgstr ""
+
+msgid "You do not have permission to export."
+msgstr ""
+
+msgid "broken links"
+msgstr ""
+
+msgid "missing featured"
+msgstr ""
+
+msgid "missing images"
+msgstr ""
+
+msgid "total issues"
+msgstr ""
+
+msgid "unused media"
+msgstr ""
+

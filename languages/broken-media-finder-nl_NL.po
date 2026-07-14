@@ -1,0 +1,431 @@
+# Translation of Broken Media Finder in Dutch
+# This file is distributed under the same license as the Broken Media Finder plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Broken Media Finder 1.0.0\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%d issue found"
+msgstr "%d-probleem gevonden"
+
+msgid "%d issues found"
+msgstr "%d problemen gevonden"
+
+msgid "%d scan recorded"
+msgstr "%d scan opgenomen"
+
+msgid "%d scans recorded"
+msgstr "%d scans opgenomen"
+
+msgid "404 Not Found"
+msgstr "404 Niet Gevonden"
+
+msgid "410 Gone"
+msgstr "410 Weg"
+
+msgid "Actions"
+msgstr "Acties"
+
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+msgid "All Severities"
+msgstr "Alle ernstigheden"
+
+msgid "All Statuses"
+msgstr "Alle statussen"
+
+msgid "All Types"
+msgstr "Alle types"
+
+msgid "Also clear scan history"
+msgstr "Ook duidelijke scangeschiedenis"
+
+msgid "Are you sure you want to delete this scan and its results? This cannot be undone."
+msgstr "Weet u zeker dat u deze scan en de resultaten ervan wilt verwijderen? Dit kan niet ongedaan worden gemaakt."
+
+msgid "Attachment \"%1$s\" (#%2$d) appears unused."
+msgstr "Bijlage \"%1$s\" (#%2$d) lijkt ongebruikt."
+
+msgid "Attachment #%d"
+msgstr "Bijlage #%d"
+
+msgid "Attachment ID"
+msgstr "Bijlage ID"
+
+msgid "Attachment Title"
+msgstr "Bijlage titel"
+
+msgid "Broken Link"
+msgstr "Gebroken koppeling"
+
+msgid "Broken Links"
+msgstr "Gebroken Links"
+
+msgid "Broken Media Finder"
+msgstr "Kapotte mediazoeker"
+
+msgid "Broken Media Finder Settings"
+msgstr "Broken Media Finder-instellingen"
+
+msgid "Broken Media Status"
+msgstr "Gebroken mediastatus"
+
+msgid "Broken attachment link in \"%1$s\": %2$s"
+msgstr "Gebroken bijlage link in \"%1$s\": %2$s"
+
+msgid "Cannot replace: no post or source URL."
+msgstr "Kan niet vervangen: geen bericht- of bron-URL."
+
+msgid "Choose Image"
+msgstr "Kies een afbeelding"
+
+msgid "Clear Results"
+msgstr "Resultaten wissen"
+
+msgid "Clear scan history?"
+msgstr "Scangeschiedenis wissen?"
+
+msgid "Confirm — Delete All Results"
+msgstr ""
+
+msgid "Created At"
+msgstr "Aangemaakt op"
+
+msgid "Created At GMT"
+msgstr "Aangemaakt op"
+
+msgid "Custom Placeholder URL"
+msgstr "Aangepaste tijdelijke aanduiding"
+
+msgid "DNS resolution failed"
+msgstr "DNS-omzetting mislukt"
+
+msgid "Dashboard"
+msgstr "Gösterge Paneli"
+
+msgid "Dashboard Widget"
+msgstr "Dashboard- widget"
+
+msgid "Date & Time"
+msgstr "Datum & Tijd"
+
+msgid "Delete"
+msgstr "Verwijderen"
+
+msgid "Delete Data on Uninstall"
+msgstr "Verwijder de gegevens bij het deïnstalleren"
+
+msgid "Delete all plugin data when uninstalling"
+msgstr "Verwijder alle plugingegevens bij het verwijderen"
+
+msgid "Delete all scan results? This cannot be undone."
+msgstr "Alle scanresultaten verwijderen? Dit kan niet ongedaan worden gemaakt."
+
+msgid "Detailed Results"
+msgstr "Gedetailleerde resultaten"
+
+msgid "Detect missing featured image files"
+msgstr "Ontbrekende uitgelichte afbeeldingsbestanden detecteren"
+
+msgid "Enable Broken Media Finder"
+msgstr "Schakel Broken Media Finder in"
+
+msgid "Enable Plugin"
+msgstr "Plugin inschakelen"
+
+msgid "Error Type"
+msgstr "Fout type"
+
+msgid "Export CSV"
+msgstr "CSV exporteren"
+
+msgid "File Path"
+msgstr "Bestands pad"
+
+msgid "Filter"
+msgstr "Filter"
+
+msgid "Fixed"
+msgstr "Vast"
+
+msgid "Go to Broken Media Finder"
+msgstr "Ga naar Broken Media Finder"
+
+msgid "Go to Dashboard"
+msgstr "Ga naar dashboard"
+
+msgid "HTTP Error %d"
+msgstr "HTTP-fout %d"
+
+msgid "High"
+msgstr "Hoog"
+
+msgid "Ignore"
+msgstr "Negeren"
+
+msgid "Ignored"
+msgstr "Genegeerd"
+
+msgid "Image replaced with placeholder."
+msgstr "Afbeelding vervangen door tijdelijke aanduiding."
+
+msgid "Include media attached to a parent post in unused scan"
+msgstr "Voeg media toe die zijn gekoppeld aan een bovenliggend bericht in een ongebruikte scan"
+
+msgid "Invalid URL format"
+msgstr "Ongeldige URL-indeling"
+
+msgid "Invalid host"
+msgstr "Ongeldige hostnaam"
+
+msgid "Invalid scan ID or the requested scan results are no longer available."
+msgstr "Ongeldige scan-ID of de gevraagde scanresultaten zijn niet langer beschikbaar."
+
+msgid "Issue Type"
+msgstr "Issue type"
+
+msgid "Item Type"
+msgstr "Object type"
+
+msgid "Keep Previous Results"
+msgstr "Vorige resultaten"
+
+msgid "Keep previous scan results when running a new scan"
+msgstr "Eerdere scanresultaten behouden bij het uitvoeren van een nieuwe scan"
+
+msgid "Last scan: %s"
+msgstr "Laatste scan: %s"
+
+msgid "List unused media attachments"
+msgstr "Lijst van ongebruikte media-bijlagen"
+
+msgid "Local file does not exist"
+msgstr "Lokaal bestand bestaat niet"
+
+msgid "Low"
+msgstr "Laagstand"
+
+msgid "Mark Fixed"
+msgstr "Markeren als opgelost"
+
+msgid "Media Scan"
+msgstr "Mediascan"
+
+msgid "Medium"
+msgstr "Gemiddeld"
+
+msgid "Message"
+msgstr "Bericht"
+
+msgid "Missing Featured"
+msgstr "Ontbrekende uitgelicht"
+
+msgid "Missing Image"
+msgstr "Berichtenlog"
+
+msgid "Missing Images"
+msgstr "Ontbrekende afbeeldingen"
+
+msgid "Missing featured image file for \"%1$s\" (attachment #%2$d)."
+msgstr "Ontbrekend uitgelicht afbeeldingsbestand voor \"%1$s\" (bijlage #%2$d)."
+
+msgid "Missing file"
+msgstr "Ontbrekend bestand"
+
+msgid "Missing image in \"%1$s\": %2$s (Error: %3$s)"
+msgstr "Ontbrekende afbeelding in \"%1$s\": %2$s (Fout: %3$s)"
+
+msgid "Missing image in Widget [%1$s #%2$d]: %3$s (Error: %4$s)"
+msgstr "Ontbrekende afbeelding in widget [%1$s #%2$d]: %3$s (Fout: %4$s)"
+
+msgid "N/A"
+msgstr "NVT"
+
+msgid "No issues found for this filter."
+msgstr "Er zijn geen problemen gevonden voor dit filter."
+
+msgid "No scan has been run yet."
+msgstr "Er is nog geen scan uitgevoerd."
+
+msgid "No scan has been run yet. Click \"Run New Scan\" to get started."
+msgstr "Er is nog geen scan uitgevoerd. Klik op \"Nieuwe scan uitvoeren\" om aan de slag te gaan."
+
+msgid "No scan history found. Run a new scan from the dashboard."
+msgstr "Geen scangeschiedenis gevonden. Voer een nieuwe scan uit vanaf het dashboard."
+
+msgid "Not scanned"
+msgstr "Niet gescand"
+
+msgid "Note: Unused media detection may produce false positives. Review results carefully before deleting any files."
+msgstr "Opmerking: detectie van ongebruikte media kan valse positieven opleveren. Bekijk de resultaten zorgvuldig voordat u bestanden verwijdert."
+
+msgid "Open"
+msgstr "Openen"
+
+msgid "Permission denied."
+msgstr "Toestemming geweigerd."
+
+msgid "Placeholder Applied"
+msgstr "Tijdelijke aanduiding toegepast"
+
+msgid "Placeholder Source"
+msgstr "Bron van tijdelijke aanduiding"
+
+msgid "Post"
+msgstr "Publicatie"
+
+msgid "Post ID"
+msgstr "Bericht ID"
+
+msgid "Post Title"
+msgstr "Titel van het bericht"
+
+msgid "Post Types"
+msgstr "Berichttypes"
+
+msgid "Post not found."
+msgstr "Bericht niet gevonden."
+
+msgid "Repair"
+msgstr "Repareren"
+
+msgid "Replace this image with the placeholder? This modifies post content."
+msgstr "Deze afbeelding vervangen door de tijdelijke aanduiding? Dit wijzigt de inhoud van het bericht."
+
+msgid "Request timed out"
+msgstr "Er is een time-out van aanvraag"
+
+msgid "Reset"
+msgstr "Opnieuw instellen"
+
+msgid "Resolved URL"
+msgstr "Opgeloste URL"
+
+msgid "Result ID"
+msgstr "Geen resulaten id"
+
+msgid "Run New Scan"
+msgstr "Nieuwe scan uitvoeren"
+
+msgid "Save Settings"
+msgstr "Instellingen opslaan"
+
+msgid "Scan"
+msgstr "Scannen"
+
+msgid "Scan Date"
+msgstr "Scan Datum:"
+
+msgid "Scan History"
+msgstr "Scangeschiedenis"
+
+msgid "Scan ID"
+msgstr "Scan id."
+
+msgid "Scan Types"
+msgstr "Scantypes"
+
+msgid "Scan complete. %d issue found."
+msgstr "Scan voltooid. %d-probleem gevonden."
+
+msgid "Scan complete. %d issues found."
+msgstr "Scan voltooid. %d-problemen gevonden."
+
+msgid "Scan content for broken attachment links"
+msgstr "Inhoud scannen op verbroken koppelingen naar bijlagen"
+
+msgid "Scan content for missing images"
+msgstr "Inhoud scannen op ontbrekende afbeeldingen"
+
+msgid "Scan result not found."
+msgstr "Scanresultaat niet gevonden."
+
+msgid "Scan results cleared."
+msgstr "Scanresultaten gewist."
+
+msgid "Search URL or message..."
+msgstr "URL of bericht zoeken..."
+
+msgid "Security check failed."
+msgstr "Beveiligingscontrole is mislukt."
+
+msgid "Select from Media Library or enter a URL."
+msgstr "Selecteer uit de mediabibliotheek of voer een URL in."
+
+msgid "Settings"
+msgstr "Instellingen"
+
+msgid "Severity"
+msgstr "Ernst"
+
+msgid "Show scan summary widget on dashboard"
+msgstr "Scansamenvattingswidget weergeven op dashboard"
+
+msgid "Source URL"
+msgstr "URL van bron"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Total Issues"
+msgstr "Totaal aantal problemen"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "URL not found in post content."
+msgstr "URL niet gevonden in berichtinhoud."
+
+msgid "Unused"
+msgstr "Niet benut"
+
+msgid "Unused Media"
+msgstr "Vul ongebruikte media"
+
+msgid "Unused Media Options"
+msgstr "Ongebruikte media-opties"
+
+msgid "Use Placeholder"
+msgstr "Plaatshouder gebruiken"
+
+msgid "Use custom URL"
+msgstr "Aangepaste URL "
+
+msgid "Use default plugin placeholder"
+msgstr "Gebruik standaard plugin placeholder"
+
+msgid "Used"
+msgstr "Gebruikt"
+
+msgid "View Dashboard"
+msgstr "Dashboard bekijken"
+
+msgid "View Results"
+msgstr "Bekijk resultaten"
+
+msgid "WP Broken Media Finder"
+msgstr "WP Broken Mediazoeker"
+
+msgid "You do not have permission to export."
+msgstr "U hebt geen toestemming om gegevens te exporteren."
+
+msgid "broken links"
+msgstr "Gebroken Links"
+
+msgid "missing featured"
+msgstr "ontbrekend uitgel"
+
+msgid "missing images"
+msgstr "ontbrekende afbeeldingen"
+
+msgid "total issues"
+msgstr "totale problemen"
+
+msgid "unused media"
+msgstr "Vul ongebruikte media"
+

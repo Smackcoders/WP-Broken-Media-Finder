@@ -1,0 +1,7 @@
+1. Pagination and Screen Options:
+   - Add standard WordPress "Screen Options" to all admin screens displaying WP List Tables.
+   - Implement configurable pagination, allowing users to customize the "Number of items per page."
+
+2. Multiple Broken Media Detection Bug:
+   - Fix a bug where the media scan only detects and displays a single broken media item, even when a post contains multiple broken media elements.
+
