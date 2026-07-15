@@ -1,32 +1,59 @@
 # Broken Media Finder
 
-A WordPress broken image finder and media scanner plugin that detects missing images, broken attachment links, missing featured images, and unused media files — then helps you clean them up.
+Finds broken images, dead attachment links, missing featured images, and unused media across your site.
+
+![License](https://img.shields.io/badge/license-GPLv2%20or%20later-blue.svg)
+![WordPress](https://img.shields.io/badge/WordPress-5.0%2B-21759B.svg)
+![PHP](https://img.shields.io/badge/PHP-7.4%2B-777BB4.svg)
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [Use Cases](#use-cases)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Configuration & Setup](#configuration--setup)
+- [Usage](#usage)
+- [Supported Integrations](#supported-integrations)
+- [Screenshots](#screenshots)
+- [Documentation](#documentation)
+- [FAQ](#faq)
+- [Roadmap](#roadmap)
+- [Changelog](#changelog)
+- [Security](#security)
+- [Contributing](#contributing)
+- [Support](#support)
+- [License](#license)
+- [Disclaimer](#disclaimer)
+- [Author](#author)
 
 ## Overview
 
-Broken Media Finder is a lightweight WordPress media audit plugin built for admins, agencies, bloggers, and WooCommerce store owners who need a dependable way to keep a media library healthy. Site migrations, theme changes, and content edits routinely leave behind dead links, orphaned media, and missing images that quietly hurt user experience and SEO — this is often called link rot, and it tends to go unnoticed until a visitor (or Google) finds it first.
+Broken Media Finder is a media audit plugin for WordPress admins, agencies, bloggers, and WooCommerce store owners who need to know when a media library has quietly broken. Migrations, theme switches, and routine content edits leave behind dead links and orphaned files more often than most site owners realize — the industry calls this link rot, and it usually surfaces only after a visitor, or Google, trips over it first.
 
-As a WordPress content scanner and attachment link scanner, the plugin scans posts, pages, widgets, and page builder content (including Elementor- and Divi-style meta fields) for broken references, then reports everything in a single dashboard. It acts as a WordPress dead link detector for media: catching broken image src attributes, broken PDF/ZIP attachment links, missing featured images, and attachments that aren't used anywhere on the site. Results can be reviewed, marked, exported to CSV, replaced with a placeholder image, or automated entirely through WP-CLI — making it equally useful as a one-off site health check before a launch and as a recurring digital housekeeping tool for ongoing media cleanup.
+The plugin works as a content scanner: it walks posts, pages, reusable blocks, custom fields (including data stored by page builders like Elementor and Divi), and sidebar widgets, checking every image and attachment reference it finds. Local files are checked against disk; images hosted elsewhere are checked with a live HTTP request, so a broken external image URL gets caught the same way a missing local file does. Results land in a single dashboard where they can be filtered, exported to CSV, replaced with a placeholder, or driven entirely through WP-CLI for scheduled audits.
 
-**Important:** Broken Media Finder only reports and marks issues. It never deletes media files automatically. Always review unused media results carefully before deleting any files — false positives are possible.
+Broken Media Finder only reports and marks issues — it never deletes anything on its own. Cleanup stays a deliberate, reviewable step for whoever runs the scan.
 
 ## Key Features
 
-- **Broken image & empty src detection** — finds images inside post/page content whose files no longer exist on disk, including empty or malformed `src` attributes
-- **Attachment link scanner** — detects broken links to PDFs, ZIPs, and other non-image upload files (non-image broken link detection)
-- **Missing featured image detection** — flags posts/pages whose featured image attachment file is missing
-- **Unused media scanner** — lists attachments that aren't used as a featured image or anywhere in post/page content, so you can reclaim wasted storage
-- **Page builder & widget content scanning** — reads Elementor/Divi-style post meta fields and classic/block sidebar widgets, not just `post_content`
-- **One-click placeholder replacement** — swaps a missing image URL in post content for a configurable placeholder image, while preserving the original URL in the scan result
-- **CSV export of scan results** — exports full scan data with CSV formula-injection protection built in
-- **Scan history admin page** — keeps the last 20 scans with issue counts for quick before/after comparison
-- **Dashboard, results, settings, and help admin pages** — a dedicated plugin menu with summary cards, filterable results (issue type, severity, status, search), a settings screen, and a help/support screen
-- **Media Library scan status column** — shows Unused / Missing file / Used status per attachment right in the Media Library
-- **Dashboard widget** — surfaces the latest scan summary without leaving wp-admin
+- **Broken image & empty src detection** — finds `<img>` tags with missing or empty `src` attributes, plus image URLs that no longer resolve, whether the file lives on your server or off-site
+- **HTTP-based external link checking** — off-site image URLs are validated with a live request that distinguishes 404s, 410s, DNS failures, and timeouts, rather than being skipped
+- **Attachment link scanner** — flags broken links to PDFs, ZIPs, and other non-image files stored in your uploads directory
+- **Missing featured image detection** — flags posts and pages whose featured image attachment file no longer exists on disk
+- **Unused media scanner** — lists attachments not used as a featured image or referenced in scanned post/page content, so storage doesn't quietly fill up with orphaned files
+- **Page builder & widget content scanning** — reads custom field values (including Elementor- and Divi-style post meta) and classic, custom HTML, media image, and block sidebar widgets, not just the main post content; reusable blocks are scanned automatically alongside your selected post types
+- **One-click placeholder replacement** — swaps a broken image, missing featured image, or dead attachment link for a configurable placeholder, while keeping the original URL on record in the scan result
+- **CSV export of scan results** — exports full scan data with formula-injection protection built in
+- **Scan history admin page** — retains up to 100 past scans with issue counts for before/after comparison
+- **Dashboard, results, settings, and help admin pages** — a dedicated top-level "Broken Media Finder" menu with summary cards, filterable results (issue type, severity, status, search), a tabbed settings screen, and a help/support screen
+- **Media Library scan status column** — shows Used, Unused, Missing file, or Not scanned status per attachment right in the Media Library
+- **Dashboard widget** — surfaces the latest scan summary on the WordPress dashboard without opening the plugin
 - **WP-CLI scan commands** — `scan`, `summary`, `results`, `export`, and `clear` commands for automation and cron-driven audits
 - **Developer hooks across the scan lifecycle** — before/after scan, scan failed, result inserted, and placeholder applied actions, plus filters for post types, scan types, query args, and CSV output
 - **Translation-ready plugin** — built with a proper text domain and shipped with 19 bundled language translations
-- **Security hardened** — nonces, capability checks, prepared SQL, and sanitized/escaped output throughout
+- **Security hardened** — nonces, capability checks, prepared SQL statements, and sanitized/escaped output throughout
 
 ## Use Cases
 
@@ -34,14 +61,16 @@ As a WordPress content scanner and attachment link scanner, the plugin scans pos
 - **Pre-launch or pre-redesign checks** — catching missing images and broken links before a redesign or relaunch goes live
 - **Ongoing media library cleanup** — content managers and SEO teams periodically clearing unused media and orphaned attachments to keep storage lean
 - **Theme or template changes** — finding images that broke after a theme switch or template restructuring
-- **Client maintenance retainers** — support teams running a quick broken-media scan as part of routine site health maintenance
-- **SEO content audits** — identifying broken images and dead links that could affect page quality or crawl signals
+- **Client maintenance retainers** — support teams running a quick broken-media scan as part of routine site health checks
+- **SEO content audits** — surfacing broken images and dead links that could weigh on page quality or crawl signals
 
 ## Requirements
 
-- **WordPress:** 5.0 or later
-- **PHP:** 7.4 or later
-- **Other requirements:** No external services or API keys required — all scanning runs against your own WordPress database and uploads directory
+| Requirement | Version |
+| --- | --- |
+| WordPress | 5.0 or later |
+| PHP | 7.4 or later |
+| External services | None — scanning runs entirely against your own database and uploads directory |
 
 ## Installation
 
@@ -58,21 +87,22 @@ As a WordPress content scanner and attachment link scanner, the plugin scans pos
 2. Upload the `broken-media-finder` folder to `/wp-content/plugins/`.
 3. Activate the plugin from **WordPress Admin → Plugins**.
 
-## Configuration / Setup
+## Configuration & Setup
 
-1. After activation, go to **Tools → Broken Media** to run your first scan.
-2. Go to **Settings → Broken Media Finder** to configure which scan types run, which post types are included, and the placeholder image used for missing-image replacement.
-3. Optionally enable or disable the dashboard summary widget from the settings screen.
-4. Review the **Help** tab inside the plugin for a quick reference of available features and WP-CLI commands.
+1. After activation, open the **Broken Media Finder** menu in the WordPress admin sidebar and run your first scan from the Dashboard.
+2. Go to **Broken Media Finder → Settings** to choose which scan types and post types run, and to set the placeholder image used for replacements.
+3. Use the Settings screen's Advanced tab to toggle the dashboard summary widget, decide whether previous scan results are kept, and control whether plugin data is removed on uninstall — media files themselves are never deleted, uninstall only clears the plugin's own database table and options if you opt in.
+4. Open the **Help & Support** screen inside the plugin for a quick reference of available features and WP-CLI commands.
 
 ## Usage
 
-1. From the dashboard, click the manual scan button to scan your site for missing images, broken attachment links, missing featured images, and unused media.
+1. From the Dashboard, click the manual scan button to check your site for missing images, broken attachment links, missing featured images, and unused media.
 2. Review results on the Scan Results page — filter by issue type, severity, or status, and search for specific items.
-3. Mark individual results as **Ignored** or **Fixed**, or replace a missing image with your configured placeholder directly from the results table.
-4. Check the Media Library's status column at any time to see whether an attachment is Used, Unused, or has a missing file.
+3. Mark individual results as **Ignored** or **Fixed**, or replace a broken image, missing featured image, or dead attachment link with your configured placeholder directly from the results table.
+4. Check the Media Library's scan status column at any time to see whether an attachment is Used, Unused, or has a missing file.
 5. Export the current results to CSV for a client report or further review.
-6. Automate scans on a schedule (e.g. via cron) using the WP-CLI commands below:
+6. Automate scans on a schedule using cron and the WP-CLI commands below:
+
    ```bash
    wp wpbmf scan
    wp wpbmf summary
@@ -84,45 +114,48 @@ As a WordPress content scanner and attachment link scanner, the plugin scans pos
 ## Supported Integrations
 
 - **WP-CLI** — full command-line support for scanning, exporting, and clearing results
-- **Page builder content** — scans Elementor/Divi-style post meta fields in addition to standard post content
-- **Classic & block widgets** — scans text, custom HTML, image, and block widgets in active sidebars
-- **WooCommerce sites** — safe to run on WooCommerce stores today (dedicated product image scanning is planned for a future Pro release; see Roadmap)
+- **Page builder content** — scans Elementor- and Divi-style post meta fields in addition to standard post content
+- **Classic & block widgets** — scans text, custom HTML, media image, and block widgets in active sidebars
+- **WooCommerce sites** — safe to run on WooCommerce stores today; dedicated product image scanning is planned for a future Pro release (see Roadmap)
 
-## Screenshots / Demo
+## Screenshots
 
-1. Dashboard with summary cards and scan history.
-2. Scan results page with issue type/severity/status badges, filters, and row actions.
-3. Replace missing image with placeholder — before and after.
-4. Settings page showing scan types and placeholder configuration.
-5. Media Library with the Media Scan status column.
-6. Dashboard widget with scan summary.
+Screenshots of the Dashboard, Scan Results page, Settings screen, and Media Library status column are available on the plugin's WordPress.org listing.
 
 ## Documentation
 
-In-plugin documentation is available from the **Help** page inside **Tools → Broken Media** after activation, covering feature usage and the full WP-CLI command reference. Developer hooks and filters are documented inline in the plugin source under `includes/`.
+In-plugin documentation is available from the **Help & Support** page inside the **Broken Media Finder** menu after activation, covering feature usage and the full WP-CLI command reference. Developer hooks and filters are documented inline in the plugin source under `includes/`.
 
-## Frequently Asked Questions
+## FAQ
 
 ### Does this plugin delete unused media automatically?
-No. The plugin only lists and marks unused media as part of its wordpress media cleanup workflow. Admins must review results carefully and delete files manually if needed — false positives are possible.
+
+No. It only lists and marks unused media as part of the cleanup workflow; deleting files is always a manual step. Review results carefully before deleting — unused-media detection checks featured images and content in scanned post types, so an attachment referenced only through a widget or a page-builder field can be flagged as unused even though it's still in use.
 
 ### Can it replace missing images?
-Yes. Missing images found in post content can be replaced with a configured placeholder image. This modifies `post_content`, and the original URL is saved in the scan result so the change can be reviewed or reversed.
+
+Yes. Broken or missing images in post content, missing featured images, and broken attachment links can each be replaced with a configured placeholder. The original URL stays on record in the scan result alongside the replacement, so the change can be reviewed or manually reversed.
 
 ### Does it scan page builder or widget content?
-Yes. The content scanner reads Elementor/Divi-style post meta fields as well as classic and block sidebar widgets, not just standard post content.
+
+Yes. The content scanner reads custom field values — including data stored by builders like Elementor and Divi — as well as classic, custom HTML, media image, and block sidebar widgets, not just standard post content.
 
 ### Does it scan external image URLs?
-The free version focuses on internal WordPress uploads only. External URL validation is planned for a future Pro release.
+
+Yes. Image URLs found in content that don't point to your own uploads directory are checked with a live HTTP request, which catches 404s, 410s, timeouts, and DNS failures rather than skipping them. Non-image attachment links, such as PDFs or ZIPs, are currently checked only when they point to your own uploads directory; broader external link validation for those file types is planned for Pro.
 
 ### Does it support WooCommerce product images?
-Not yet as a dedicated feature — general page/post scanning still covers WooCommerce content pages today. Dedicated WooCommerce product image scanning is planned for Pro.
+
+Not yet as a dedicated feature — general page and post scanning already covers WooCommerce content pages. Dedicated WooCommerce product image scanning is planned for Pro.
 
 ### Can I export scan results to CSV?
+
 Yes. Scan results can be exported as CSV from the dashboard or results page, with formula-injection protection built in.
 
 ### Are WP-CLI commands available?
+
 Yes:
+
 - `wp wpbmf scan` — Run a full scan
 - `wp wpbmf summary` — View latest scan summary
 - `wp wpbmf results --type=missing_image` — List results
@@ -130,13 +163,14 @@ Yes:
 - `wp wpbmf clear --yes` — Clear all results
 
 ### Can developers extend the plugin?
+
 Yes. Available hooks include:
+
 - `wpbmf_before_scan_started` — Fires before scan begins
 - `wpbmf_after_scan_completed` — Fires after scan with summary
 - `wpbmf_scan_failed` — Fires on scan error
 - `wpbmf_result_inserted` — Fires after each result is saved
 - `wpbmf_placeholder_applied` — Fires after placeholder replacement
-- `wpbmf_results_cleared` — Fires after results are cleared
 - `wpbmf_supported_post_types` — Customize scanned post types
 - `wpbmf_enabled_scan_types` — Enable/disable scan types
 - `wpbmf_upload_url_to_path` — Override URL-to-path mapping
@@ -153,10 +187,9 @@ Yes. Available hooks include:
 The following are planned for a future Pro release and are not available yet:
 
 - Auto-repair moved media (match by filename, suggest URL swap)
-- Cloud media support (Amazon S3, Cloudflare R2, Bunny CDN)
+- Cloud media support (AWS S3, Google Cloud, and DigitalOcean Spaces)
 - WooCommerce product image scan
 - Scheduled weekly scan with email summary
-- External URL validation
 - CDN media validation
 - Bulk replacement rules
 - Client-ready PDF reports
@@ -164,12 +197,13 @@ The following are planned for a future Pro release and are not available yet:
 ## Changelog
 
 ### 1.0.0 (2026-06-04)
+
 - Initial release.
 - Plugin scaffold with PSR-4 autoloader, constants, activation/deactivation hooks.
 - Custom database table (`wpbmf_scan_results`) with dbDelta and 7 indexes.
 - ScanRepository with full CRUD, status update, summary, and export methods.
 - UrlExtractor: img src, srcset, upload link extraction, URL-to-path mapping.
-- ContentScanner: scan post/page content, page builder meta, and widgets for missing local image files.
+- ContentScanner: scan post/page content, page builder meta, and widgets for missing local and broken external image URLs.
 - AttachmentScanner: scan post/page content for broken document/file links.
 - FeaturedImageScanner: detect posts/pages whose featured image file is missing.
 - UnusedMediaScanner: list attachments not used in content or as featured images.
@@ -191,7 +225,7 @@ The following are planned for a future Pro release and are not available yet:
 
 ## Security
 
-Broken Media Finder is built with nonce verification, capability checks, prepared SQL statements, and sanitized/escaped input and output throughout, including CSV formula-injection protection on exports. The plugin never deletes media files automatically — it only reports and marks issues, leaving destructive actions to the site admin.
+Broken Media Finder is built with nonce verification, capability checks, prepared SQL statements, and sanitized/escaped input and output throughout, including CSV formula-injection protection on exports. The plugin never deletes media files automatically — it only reports and marks issues, leaving destructive actions to the site admin. An optional "Delete data on uninstall" setting removes the plugin's own database table and options when uninstalled; it does not touch your media library either way.
 
 If you discover a security vulnerability, please do not disclose it publicly in a GitHub issue. Instead, report it privately to the maintainer at [smackcoders.com](https://smackcoders.com/) so it can be investigated and patched before public disclosure.
 
@@ -219,8 +253,8 @@ Copyright © Smackcoders.
 
 ## Disclaimer
 
-Broken Media Finder is an independent plugin developed by Smackcoders and is not affiliated with, endorsed by, or sponsored by WordPress.org, Automattic, WooCommerce, Elementor, Divi/Elegant Themes, Amazon Web Services, Cloudflare, or Bunny.net. All product names, logos, and brands mentioned (including planned Pro integrations) are property of their respective owners and are referenced solely to describe compatibility or planned functionality.
+Broken Media Finder is an independent plugin developed by Smackcoders and is not affiliated with, endorsed by, or sponsored by WordPress.org, Automattic, WooCommerce, Elementor, Divi/Elegant Themes, Amazon Web Services, Google Cloud, or DigitalOcean. All product names, logos, and brands mentioned (including planned Pro integrations) are property of their respective owners and are referenced solely to describe compatibility or planned functionality.
 
-## Author / Maintainer
+## Author
 
 Developed and maintained by **[Smackcoders](https://smackcoders.com/)**.
